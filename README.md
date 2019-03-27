@@ -10,6 +10,17 @@ Thomas Ryszkiewicz
 
 ## Instructions
 What kind of experience do you want to build? (AR/VR/XR)
+-AR
 What toolstack do you want to use? (Unity, Web, others on request)
+-
 What SDK would you like to use? (GoogleVR, SteamVR, OpenVR, AFrame, Vuforia, ARCore, AR.js, others on request)
+-
 What hardware will you target?
+-
+
+## Brainstorm
+-Tower defense
+-Treasure hunt
+-Sticky notes (potentially collaborative; you can see other people's sticky notes and share notes with people; fridge (reminders))
+-AR Language Translator (take a screenshot, send to server for image recognition)
+-New student campus tour
