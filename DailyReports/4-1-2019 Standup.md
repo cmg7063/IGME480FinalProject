@@ -32,6 +32,8 @@ Add InitialResearch
 ### What she will work on:  
 Get ARCore setup with Unity iOS  
 Research and become familiar with ARCore  
+Write comments for info boxes (placeholders)  
+Start writing tasks in Github (organization)  
 
 ### Blocking issues:  
 N/A  
