@@ -1,25 +1,15 @@
 # IGME480FinalProject
 Git repository for IGME 480.01 final project.
 
+## Unity Version
+Unity 2018.3.7
+
 ## Authors
 Matthew Castronova  
 Corinne Green  
 Rebecca Medina  
 Alex Pasieka  
 Thomas Ryszkiewicz  
-
-## Instructions
-What kind of experience do you want to build? (AR/VR/XR)  
-- AR  
-
-What toolstack do you want to use? (Unity, Web, others on request)  
-- Unity  
-
-What SDK would you like to use? (GoogleVR, SteamVR, OpenVR, AFrame, Vuforia, ARCore, AR.js, others on request)  
-- ARCore  
-
-What hardware will you target?  
-- Android  
 
 ## Things to consider for AR:
 - Immersion and Presence  
