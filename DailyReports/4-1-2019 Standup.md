@@ -1,4 +1,6 @@
-# Group F  4/1/2019  Member Reports  
+# Group F
+# 4/1/2019
+# Member Reports  
 
 ## Matthew Castronova  
 ### What he worked on:
@@ -13,6 +15,7 @@ N/A
 
 ## Corinne Green  
 ### What she worked on:
+Setup the GitHub repository
 Setup the initial project plan document  
 
 ### What she will work on:
@@ -25,7 +28,7 @@ N/A
 ## Rebecca Medina  
 ### What she worked on:
 Fleshed out the initial project plan  
-Add Resources and InitialResearch.md document which details specific links and information for further research  
+Add Resources directory and InitialResearch.md document which details specific links and information for further research  
 
 ### What she will work on:
 Get ARCore setup with Unity iOS  
