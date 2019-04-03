@@ -4,6 +4,9 @@ Git repository for IGME 480.01 final project.
 ## Unity Version
 Unity 2018.3.7
 
+## Google Maps API Key
+AIzaSyCVl9Nrml-dlRInJMSGVIV0OI0lferl_HE
+
 ## Authors
 Matthew Castronova  
 Corinne Green  
