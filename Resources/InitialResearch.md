@@ -34,3 +34,7 @@ Tunnels on basic campus map: https://icsmap.weebly.com/blog/rit-tunnels-map
 ## Text To Speech
 
 Perhaps look into another Google API. 
+
+## Haptics
+
+It is strongly advised not to use haptics in ARCore applications. We will not use this. 
