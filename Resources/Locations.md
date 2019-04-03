@@ -11,18 +11,26 @@ From https://maps.rit.edu/
 Buildings loosely ranked in order of importance
 ### Academic
 1. Wallace Library
+  * Website: https://library.rit.edu/  
 1. George Eastman
+  * Office of the Registrar
 1. Liberal Arts
+  * Website: https://www.rit.edu/liberalarts/  
 1. Frank E Gannett
 1. James E Booth
 1. Thomas Gosnell
 1. James E Gleason
 1. Lyndon Baines Johnson 
+  * Website: https://www.ntid.rit.edu/  
 1. Golisano
+  * Website: https://www.rit.edu/gccis/  
 1. Lousie Slaughter
 1. Sustainability
 1. Institute 
 1. MAGIC Spell
+  * Website: https://www.rit.edu/magic/  
+1. Gordon Field House/Student Life Center
+  * Website: https://www.rit.edu/studentaffairs/criw/indoor-facilities.php
 1. Vignelli Center for Design Studies
 1. Lewis P Ross
 1. Max Lowenthal
@@ -37,6 +45,7 @@ Buildings loosely ranked in order of importance
 1. Engineering Technology
 1. Brown
 1. Student Innovation Hall 
+  * https://ritpedia.rit.edu/Center_for_Student_Innovation
 1. Rosica
 
 ### Dorms
@@ -66,7 +75,8 @@ we may wish to use instead of inventing out own.
 2. Sundial
 3. Unity 
 4. Tiger Statue
-5. Sentinel
+5. Sentinel  
+1. Construction 105
 
 ## Parking Lots
 1. A - General, Visitor
@@ -77,7 +87,6 @@ we may wish to use instead of inventing out own.
 6. F - General, Visitor, Reserved, Handicap
 7. G - General
 8. H - General
-9. I - 
 10. J - General, Visitor, Reserved, Handicap
 11. K - Residential
 12. L - Residential, General, Visitor, Handicap
@@ -125,3 +134,6 @@ Includes a map of these locations: https://www.rit.edu/fa/diningservices/places-
 ## Other
 1. The Hub/Digital Den
   * Printing and computer appliances
+1. Red Barn
+  * Rock climbing
+  * Website: https://www.rit.edu/~w-criw/outdoor-rockclimbing.php
