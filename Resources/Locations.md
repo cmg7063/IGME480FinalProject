@@ -16,7 +16,6 @@ Buildings loosely ranked in order of importance
   * Office of the Registrar
 1. Liberal Arts
   * Website: https://www.rit.edu/liberalarts/  
-1. Frank E Gannett
 1. James E Booth
 1. Thomas Gosnell
 1. James E Gleason
@@ -24,13 +23,15 @@ Buildings loosely ranked in order of importance
   * Website: https://www.ntid.rit.edu/  
 1. Golisano
   * Website: https://www.rit.edu/gccis/  
-1. Lousie Slaughter
-1. Sustainability
-1. Institute 
 1. MAGIC Spell
   * Website: https://www.rit.edu/magic/  
 1. Gordon Field House/Student Life Center
   * Website: https://www.rit.edu/studentaffairs/criw/indoor-facilities.php
+  
+1. Lousie Slaughter
+1. Sustainability
+1. Institute 
+1. Frank E Gannett
 1. Vignelli Center for Design Studies
 1. Lewis P Ross
 1. Max Lowenthal
@@ -103,31 +104,31 @@ Found from https://www.rit.edu/fa/diningservices/places-to-eat/hours
 Includes a map of these locations: https://www.rit.edu/fa/diningservices/places-eat  
 
 1. Artesano
-  * Bakery
+  * A cafe known for its pastries and other baked goods. Is more expensive, but is a great treat.
 2. Beanz
-  * Cafe
+  * A cafe that offers smoothies and some basic baked goods and a few sandwiches. 
 3. Ben & Jerry's
-  * Ice cream
+  * An ice cream store which offers discounts on cold days.
 4. Brick City Cafe
   * Various food options
 5. Bytes
-  * Convenience store
+  * A convenience store
 6. Crossroads/Global Village
-  * Various food options
+  * Various food options, including chinese, hamburgers, sandwiches, and more.
 7. Commons
-  * Various food options
+  * Various food options, including sandwiches and pizza and ICEEs. 
 8. Corner Store
-  * Convenience store
+  * A convenience store which stays open very late.
 9. Ctrl Alt Deli
-  * Sandwiches and pizza
+  * Sandwiches and pizza, with some pick up and go options.
 10. Gracie's
-  * Buffet
+  * A buffet with alternating options. A popular choice with freshmen.
 11. Java Wally's
-  * Cafe, does not take dining dollars
+  * A cafe which does not take dining dollars. Open mics and other events are often held here.
 12. Midnight Oil
-  * Cafe
+  * A cafe serving starbucks options.
 13. Ritz
-  * Various food options
+  * Various food options, including a pasta bake.
 14. Sol's
   * Various food options
 
