@@ -11,7 +11,7 @@ From https://maps.rit.edu/
 Buildings loosely ranked in order of importance
 ### Academic
 1. Wallace Library
-       * Website: https://library.rit.edu/  
+  * Website: https://library.rit.edu/  
   * The Wallace Center is composed of 5 levels when including the A-Level, which consists of tunnels and offices. 
   * The First Floor of the library is popular for group work and is home to Java Wally's coffee shop. 
   * The Second Floor houses the Cary Graphic Design Collection, a number of books, and a few tables. 
