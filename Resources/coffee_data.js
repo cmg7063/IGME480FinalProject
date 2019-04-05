@@ -1,3 +1,5 @@
+//HTML file: https://people.rit.edu/mjc4173/330/exercises/maps-1/rit-coffee-map.html
+
 //Building data
 export const buildings = [
 {
