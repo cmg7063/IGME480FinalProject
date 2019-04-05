@@ -108,17 +108,17 @@ Includes a map of these locations: https://www.rit.edu/fa/diningservices/places-
 2. Beanz
   * A cafe that offers smoothies and some basic baked goods and a few sandwiches. 
 3. Ben & Jerry's
-  * An ice cream store which offers discounts on cold days.
+  * An ice cream store which offers discounts on cold days. The colder it is, the better the discount.
 4. Brick City Cafe
-  * Various food options
+  * Great variety of food options that are generally on the more expensive side.
 5. Bytes
   * A convenience store
 6. Crossroads/Global Village
   * Various food options, including chinese, hamburgers, sandwiches, and more.
 7. Commons
-  * Various food options, including sandwiches and pizza and ICEEs. 
+  * Various food options, including sandwiches and pizza and ICEEs. Salads from there are popular.  
 8. Corner Store
-  * A convenience store which stays open very late.
+  * A convenience store which stays open very late, usually until 2am.
 9. Ctrl Alt Deli
   * Sandwiches and pizza, with some pick up and go options.
 10. Gracie's
@@ -128,13 +128,13 @@ Includes a map of these locations: https://www.rit.edu/fa/diningservices/places-
 12. Midnight Oil
   * A cafe serving starbucks options.
 13. Ritz
-  * Various food options, including a pasta bake.
+  * Various food options, including a pasta bake and visiting chef.
 14. Sol's
-  * Various food options
+  * A convenience store that also offers freshly made panini's and other food items.
 
 ## Other
 1. The Hub/Digital Den
   * Printing and computer appliances
 1. Red Barn
-  * Rock climbing
+  * Very inexpensive rock climbing
   * Website: https://www.rit.edu/~w-criw/outdoor-rockclimbing.php
