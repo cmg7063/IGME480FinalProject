@@ -1,3 +1,4 @@
+export const locationData = [
 {
   latitude: 43.091970,
   longitude: -77.674690,
@@ -87,3 +88,4 @@ Booth is also the home of Webb Auditorium, a 300-seat venue used for speakers se
   shortDescrip: "",
   longDescrip: ""
 } 
+];
