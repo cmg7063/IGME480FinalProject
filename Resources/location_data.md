@@ -17,20 +17,20 @@
 }, 
 
 {
-  latitude: BLAH,
-  longitude: BLAH,
+  latitude: 43.085703,
+  longitude: -77.676610,
   title: "MAGIC Spell Studios"
 }, 
 
 {
-  latitude: BLAH,
-  longitude: BLAH,
+  latitude: 43.085844,
+  longitude: -77.6776678,
   title: "Chester F. Carlson Center for Imaging Science"
 }, 
 
 {
-  latitude: BLAH,
-  longitude: BLAH,
+  latitude: 43.085189,
+  longitude: -77.677147,
   title: "James E. Booth Hall"
 }, 
 
