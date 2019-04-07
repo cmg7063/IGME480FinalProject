@@ -47,19 +47,19 @@
 }, 
 
 {
-  latitude: BLAH,
-  longitude: BLAH,
+  latitude: 43.0836219,
+  longitude: -77.6692141,21,
   title: "Gracie's"
 }, 
 
 {
-  latitude: BLAH,
-  longitude: BLAH,
+  latitude: 43.086657,
+  longitude: -77.668302,
   title: "Lyndon Baines Johnson Hall"
 }, 
 
 {
-  latitude: BLAH,
-  longitude: BLAH,
+  latitude: 43.084025, 
+  longitude: -77.674305,
   title: "SAU"
 } 
