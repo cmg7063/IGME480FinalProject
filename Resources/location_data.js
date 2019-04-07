@@ -36,8 +36,7 @@ export const locationData = [
   longitude: -77.6776678,
   title: "Chester F. Carlson Center for Imaging Science",
   shortDescrip: "A building used for research into the field of imaging science.",
-  longDescrip: "The Chester F. Carlson Center for Imaging Science at RIT is a highly interdisciplinary University Research and Education Center, dedicated to pushing the frontiers of imaging in all its forms and uses."
-Through education leading to BS, MS, and Ph.D. degrees in Imaging Science, RIT produces the next generation of educators and researchers who develop and deploy imaging systems to answer fundamental scientific questions, monitor and protect our environment, help keep our nation secure, and aid medical researchers in their quest to conquer disease."
+  longDescrip: "The Chester F. Carlson Center for Imaging Science at RIT is a highly interdisciplinary University Research and Education Center, dedicated to pushing the frontiers of imaging in all its forms and uses. Through education leading to BS, MS, and Ph.D. degrees in Imaging Science, RIT produces the next generation of educators and researchers who develop and deploy imaging systems to answer fundamental scientific questions, monitor and protect our environment, help keep our nation secure, and aid medical researchers in their quest to conquer disease."
 }, 
 
 {
@@ -45,8 +44,7 @@ Through education leading to BS, MS, and Ph.D. degrees in Imaging Science, RIT p
   longitude: -77.677147,
   title: "James E. Booth Hall",
   shortDescrip: "An academic building used by the College of Imaging Arts and Science.",
-  longDescrip: "James E. Booth Hall is an academic building that houses classrooms and department offices for the College of Imaging Arts and Science. Additionally, Booth hosts the Bevier Gallery, the premier gallery space for RIT fine arts students."
-Booth is also the home of Webb Auditorium, a 300-seat venue used for speakers series, award ceremonies and other campus events."
+  longDescrip: "James E. Booth Hall is an academic building that houses classrooms and department offices for the College of Imaging Arts and Science. Additionally, Booth hosts the Bevier Gallery, the premier gallery space for RIT fine arts students. Booth is also the home of Webb Auditorium, a 300-seat venue used for speakers series, award ceremonies and other campus events."
 }, 
 
 {
