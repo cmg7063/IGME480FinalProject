@@ -48,7 +48,7 @@
 
 {
   latitude: 43.0836219,
-  longitude: -77.6692141,21,
+  longitude: -77.6692141,
   title: "Gracie's"
 }, 
 
