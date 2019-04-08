@@ -12,10 +12,11 @@ Thomas Ryszkiewicz
 - Unity
 
 ## What SDK would you like to use? (GoogleVR, SteamVR, OpenVR, AFrame, Vuforia, ARCore, AR.js, others on request)
-- ARCore
+- ~~ARCore~~
+- Vuforia
 
 ## What hardware will you target?
-- Android, possibly iOS if Unity supports building
+- Android, iOS
 
 ## Who is the target user?
 - Tourists or proespective students on on-campus tours. They will have smart phones (specifically Android, and iOS if
@@ -43,7 +44,7 @@ form of website links, videos, or simply more detailed text.
 
 - Scene Design: Match the aesthetic of RIT's design (orange, brown, tigers)
 - Interactions: Click on AR objects for more info about location (i.e. websites, videos, etc.)
-- Sound/Haptic Feedback: Potential sound effect upon arrival at location (vibrations for deaf or HOH students)
+- Sound/Haptic Feedback: Potential sound effect upon arrival at location ~~(vibrations for deaf or HOH students)~~
 
 ## Initial Research
 
