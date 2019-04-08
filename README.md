@@ -4,8 +4,8 @@ Git repository for IGME 480.01 final project.
 ## Unity Version
 Unity 2018.3.7
 
-## Google Maps API Key
-AIzaSyCVl9Nrml-dlRInJMSGVIV0OI0lferl_HE
+## Vuforia License Key
+AZ2iqNX/////AAABmSEz2RlKKkLgt850bgCzVuEDSRNUirfth0Y0Ovx7IMvjv7jCtx4YKcJ5YC5p4NxaXhrHmICc5BKW5lqDhbD50gXx6G732jvCHt48+vpTs4YcVwd1vHx4Y9pGE8vKrJoNgVzG95Oji8mI+4AMQUbBgJXnEugSqWuz2oF6A/na1x+0pT1g0lF+LigF+sOvztcgH72eWhhKH0B7mQgtw4j4e0rl5criZmBfhtsVps3ynkCF9MXcuuyF1JA2+kXLdyBtG+kKwV9BwgK719VCM+JTpVeqIkCbvPQPpqjbTx3e6eNOvTwspwFoQq4k1lS4Tx8BL1JvV/3XNARpPftvzO9EcYovsZWxrcTPR3de2R7ZHnXp
 
 ## Authors
 Matthew Castronova  
