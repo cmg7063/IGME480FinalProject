@@ -8,6 +8,7 @@ TagManager:
   - showMore
   - shortBlurb
   - Landmark
+  - PathPoint
   layers:
   - Default
   - TransparentFX
