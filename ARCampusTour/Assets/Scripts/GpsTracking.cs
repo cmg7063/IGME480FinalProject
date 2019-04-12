@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GpsTracking : MonoBehaviour
 {
     // Postition on Earth (in kilometers)
     public float latitude;
-    public float longtidue;
+    public float longitude;
     public float altitude;
     public bool updateLocation = true;
+
+    public string shortBlurb;
+    private GameObject shortBlurbDesc;
 
 
     IEnumerator StartUpdatingLocation()
@@ -21,8 +25,10 @@ public class GpsTracking : MonoBehaviour
         if (Input.location.status == LocationServiceStatus.Running)
         {
             latitude = Input.location.lastData.latitude;
-            longtidue = Input.location.lastData.longitude;
+            longitude = Input.location.lastData.longitude;
             altitude = Input.location.lastData.altitude;
+
+            shortBlurbDesc.GetComponent<Text>().text = "Latitude: " + latitude + "   Longitude: " + longitude + "   Altitude: " + altitude;
         }
         else
         {
@@ -63,8 +69,10 @@ public class GpsTracking : MonoBehaviour
         void Start()
     {
         latitude = 0f;
-        longtidue = 0f;
+        longitude = 0f;
         altitude = 0f;
+
+        shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
     }
 
     void StopUpdatingLocation()
@@ -88,6 +96,6 @@ public class GpsTracking : MonoBehaviour
 
     public Vector3 GetPosition()
     {
-        return new Vector3(latitude, longtidue, altitude);
+        return new Vector3(latitude, longitude, altitude);
     }
 }
