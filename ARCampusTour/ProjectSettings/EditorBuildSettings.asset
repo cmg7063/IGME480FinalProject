@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/LocationBlurb.unity
+    guid: bc4fcc75395ef5145a7a0a16f3e0f5d8
   m_configObjects: {}
