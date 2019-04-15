@@ -5,7 +5,7 @@ using UnityEngine;
 public class CollisionDetection : MonoBehaviour
 {
     GameObject player;
-    ArrayList landmarks;
+    GameObject[] landmarks;
     Canvas canvas;
 
     // Start is called before the first frame update
@@ -14,7 +14,7 @@ public class CollisionDetection : MonoBehaviour
         player = gameObject;
 
         //get all locations
-        GameObject[] landmarks = GameObject.FindGameObjectsWithTag("Landmark");
+		landmarks = GameObject.FindGameObjectsWithTag("Landmark");
         //get canvas
         canvas = GameObject.FindObjectOfType<Canvas>();
     }
@@ -22,9 +22,12 @@ public class CollisionDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		
+		print(landmarks);
+
         Vector3 playerPos = player.GetComponent<GpsTracking>().GetPosition();
         //Check collide with all buildings!
-        for (int i=0; i<landmarks.Count; i++)
+        for (int i=0; i<landmarks.Length; i++)
         {
             CollidingObjectsAABB((GameObject)landmarks[i], playerPos);
         }
