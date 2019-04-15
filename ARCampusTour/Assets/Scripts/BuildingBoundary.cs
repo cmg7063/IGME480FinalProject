@@ -43,10 +43,10 @@ public class BuildingBoundary : MonoBehaviour
 	/// Retrieves the minimum Y value (bottom edge) of this sprite
 	/// </summary>
 	/// <returns>The Y minimum as a float</returns>
-	public float GetYMin()
+	public float GetZMin()
 	{
 		//Debug.Log ("Returning min x " + boundMin.x);
-		return boundMin.y;
+		return boundMin.z;
 		//return gameObject.GetComponent<SpriteRenderer> ().sprite.bounds.min.x;
 	}
 
@@ -55,10 +55,10 @@ public class BuildingBoundary : MonoBehaviour
 	/// Retrieves the maximum Y value (top edge) of this sprite
 	/// </summary>
 	/// <returns>The Y maximum as a float</returns>
-	public float GetYMax()
+	public float GetZMax()
 	{
 		//Debug.Log ("Returning max x " + boundMax.x);
-		return boundMax.y;
+		return boundMax.z;
 		//return gameObject.GetComponent<SpriteRenderer> ().sprite.bounds.min.x;
 	}
 }

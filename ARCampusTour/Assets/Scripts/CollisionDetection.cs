@@ -14,12 +14,7 @@ public class CollisionDetection : MonoBehaviour
         player = gameObject;
 
         //get all locations
-        GameObject[] locationObjects = GameObject.FindGameObjectsWithTag("Landmark");
-        for(int i=0; i< locationObjects.Length; i++)
-        {
-            landmarks.Add(locationObjects[i].GetComponent<BuildingBoundary>());
-        }
-
+        GameObject[] landmarks = GameObject.FindGameObjectsWithTag("Landmark");
         //get canvas
         canvas = GameObject.FindObjectOfType<Canvas>();
     }
@@ -31,38 +26,39 @@ public class CollisionDetection : MonoBehaviour
         //Check collide with all buildings!
         for (int i=0; i<landmarks.Count; i++)
         {
-            CollidingObjectsAABB((BuildingBoundary)landmarks[i], playerPos);
+            CollidingObjectsAABB((GameObject)landmarks[i], playerPos);
         }
     }
 
 
 
     // Rather than storing 2 GameObjects as variables, they'll be passed in as arguments
-    bool CollidingObjectsAABB(BuildingBoundary a, Vector3 playerPos)
+    bool CollidingObjectsAABB(GameObject a1, Vector3 playerPos)
     {
         // Algorithm:  
         // 1. Get the coordinates of both A and B
         // 2. Compare their left, right, top and bottom edges
         // 3. If colliding, return true
-
+        BuildingBoundary a = a1.GetComponent<BuildingBoundary>();
         // Get left and right edges of first sprite
         float aMinX = a.GetXMin();
         float aMaxX = a.GetXMax();
 
         // Get top and bottom edges of first sprite
-        float aMinY = a.GetYMin();
-        float aMaxY = a.GetYMax();
+        float aMinZ = a.GetZMin();
+        float aMaxZ = a.GetZMax();
 
         // Get left and right edges of second sprite
         float bX = playerPos.x;
-        float bY = playerPos.y;
+        float bZ = playerPos.z;
 
         // Check for a collision!
         if (aMinX < bX && bX < aMaxX)
         {
-            if (aMinY < bY && bY < aMaxY)
+            if (aMinZ < bZ && bZ < aMaxZ)
             {
-                Debug.Log("Collision!");
+                a1.GetComponent<LandmarkBlerb>().UpdateLongBlurb();
+                a1.GetComponent<LandmarkBlerb>().UpdateShortBlurb();
                 return true;
             }
         }
