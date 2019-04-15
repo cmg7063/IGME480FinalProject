@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShowMoreInfo : MonoBehaviour
+public class BlurbController : MonoBehaviour
 {
+    public Button showMore;
+    public Button closeBlock;
+
     private GameObject longBlurbDesc;
     private GameObject shortBlurbDesc;
-    public Text showMore;
+    private GameObject blurbBlock;
 
     private int x;
 
@@ -16,45 +19,33 @@ public class ShowMoreInfo : MonoBehaviour
     {
         longBlurbDesc = GameObject.FindGameObjectWithTag("longBlurb");
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
+        blurbBlock = GameObject.FindGameObjectWithTag("blurbBlock");
 
         longBlurbDesc.SetActive(false);
 
         x = 0;
     }
 
-    void OnEnable()
+    public void ShowMore()
     {
-        Lean.Touch.LeanTouch.OnFingerTap += OnFingerTap;
-    }
-
-    void OnDisable()
-    {
-        Lean.Touch.LeanTouch.OnFingerTap -= OnFingerTap;
-    }
-
-    void OnFingerTap(Lean.Touch.LeanFinger finger)
-    {
-        Debug.Log("You just tapped the screen with finger " + finger.Index + " at " + finger.ScreenPosition);
-
         if (x == 0)
         {
             longBlurbDesc.SetActive(true);
             shortBlurbDesc.SetActive(false);
-            showMore.text = "Show Less";
+            showMore.GetComponentInChildren<Text>().text = "Show Less";
             x = 1;
         }
         else
         {
             longBlurbDesc.SetActive(false);
             shortBlurbDesc.SetActive(true);
-            showMore.text = "Show More";
+            showMore.GetComponentInChildren<Text>().text = "Show More";
             x = 0;
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void CloseBlock()
     {
-        
+        blurbBlock.SetActive(false);
     }
 }

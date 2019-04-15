@@ -9,6 +9,8 @@ TagManager:
   - shortBlurb
   - Landmark
   - PathPoint
+  - blurbBlock
+  - closeBlock
   layers:
   - Default
   - TransparentFX
