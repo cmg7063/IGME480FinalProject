@@ -2213,6 +2213,11 @@ PrefabInstance:
       propertyPath: longBlurb
       value: M1L
       objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurbDesc
+      value: 
+      objectReference: {fileID: 1342836425}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
 --- !u!4 &779309725 stripped
@@ -3025,6 +3030,11 @@ PrefabInstance:
       propertyPath: longBlurb
       value: M2Long
       objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurbDesc
+      value: 
+      objectReference: {fileID: 1342836425}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
 --- !u!4 &1125627497 stripped

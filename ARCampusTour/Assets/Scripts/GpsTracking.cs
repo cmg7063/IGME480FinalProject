@@ -28,7 +28,7 @@ public class GpsTracking : MonoBehaviour
             longitude = Input.location.lastData.longitude;
             altitude = Input.location.lastData.altitude;
 
-            //shortBlurbDesc.GetComponent<Text>().text = "Latitude: " + latitude + "   Longitude: " + longitude + "   Altitude: " + altitude;
+            shortBlurbDesc.GetComponent<Text>().text = "Latitude: " + latitude + "   Longitude: " + longitude + "   Altitude: " + altitude;
         }
         else
         {
