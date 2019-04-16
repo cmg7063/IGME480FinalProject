@@ -9,9 +9,9 @@ public class GpsTracking : MonoBehaviour
     public float latitude;
     public float longitude;
     public float altitude;
-    public bool updateLocation = true;
+    public bool updateLocation = false;
 
-    public string shortBlurb;
+    private string shortBlurb;
     private GameObject shortBlurbDesc;
 
 
@@ -65,20 +65,21 @@ public class GpsTracking : MonoBehaviour
         }
     }
 
-        // Start is called before the first frame update
-        void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        latitude = 0f;
-        longitude = 0f;
-        altitude = 0f;
-
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
+        latitude = 43.08559f;
+        longitude = -77.65803f;
     }
 
     void StopUpdatingLocation()
     {
         // Stop service if there is no need to query location updates continuously
-        Input.location.Stop();
+        if(Input.location.status != LocationServiceStatus.Stopped)
+        {
+            Input.location.Stop();
+        }
     }
 
     // Update is called once per frame

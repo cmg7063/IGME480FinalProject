@@ -8,13 +8,13 @@ public class LandmarkBlerb : MonoBehaviour
     public string shortBlurb;
     public string longBlurb;
 
-    public GameObject longBlurbDesc;
+    private GameObject longBlurbDesc;
     private GameObject shortBlurbDesc;
 
     // Start is called before the first frame update
     void Start()
     {
-        //longBlurbDesc = GameObject.FindGameObjectWithTag("longBlurb");
+        longBlurbDesc = GameObject.FindGameObjectWithTag("longBlurb");
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
 
     }
@@ -28,6 +28,7 @@ public class LandmarkBlerb : MonoBehaviour
     public void UpdateShortBlurb()
     {
         shortBlurbDesc.GetComponent<Text>().text = shortBlurb;
+        //Debug.Log(shortBlurbDesc.GetComponent<Text>().text);
     }
     public void UpdateLongBlurb()
     {

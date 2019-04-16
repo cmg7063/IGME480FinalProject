@@ -17,19 +17,28 @@ public class CollisionDetection : MonoBehaviour
 		landmarks = GameObject.FindGameObjectsWithTag("Landmark");
         //get canvas
         canvas = GameObject.FindObjectOfType<Canvas>();
+
+        for (int i = 0; i < landmarks.Length; i++)
+        {
+            Debug.Log("Landmark " + i + " is named " + landmarks[i].name);
+        } 
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-		
-		print(landmarks);
 
         Vector3 playerPos = player.GetComponent<GpsTracking>().GetPosition();
         //Check collide with all buildings!
         for (int i=0; i<landmarks.Length; i++)
         {
             CollidingObjectsAABB((GameObject)landmarks[i], playerPos);
+            if(landmarks[i].name == "Apartment")
+            {
+                landmarks[i].GetComponent<LandmarkBlerb>().UpdateShortBlurb();
+                landmarks[i].GetComponent<LandmarkBlerb>().UpdateLongBlurb();
+            }
         }
     }
 
@@ -55,13 +64,16 @@ public class CollisionDetection : MonoBehaviour
         float bX = playerPos.x;
         float bZ = playerPos.z;
 
+
         // Check for a collision!
         if (aMinX < bX && bX < aMaxX)
         {
             if (aMinZ < bZ && bZ < aMaxZ)
             {
-                a1.GetComponent<LandmarkBlerb>().UpdateLongBlurb();
-                a1.GetComponent<LandmarkBlerb>().UpdateShortBlurb();
+                //Debug.Log("Collided with " + a1.name);
+                //a1.GetComponent<LandmarkBlerb>().UpdateLongBlurb();
+                //a1.GetComponent<LandmarkBlerb>().UpdateShortBlurb();
+
                 return true;
             }
         }

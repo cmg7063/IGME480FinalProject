@@ -10,14 +10,22 @@ public class PathFollowing : MonoBehaviour
     public bool isMoving; //set to false when blurb pops up, set to true when user closes blurb
     public float maxDistToPlayer; //max distance the guide can be from the player
 
+    //Disabling path for now to keep the console logs cleaner
+    public bool updateScript;
+
     // Start is called before the first frame update
     void Start()
     {
+        updateScript = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(updateScript == false)
+        {
+            return;
+        }
         Vector3 currPos = gameObject.transform.position;
         Vector3 goal = pathPoints[currIndex].GetComponent<PathPoint>().GetPosition();
         Vector3 nextPos = currPos;
