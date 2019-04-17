@@ -33,7 +33,7 @@ public class GpsTracking : MonoBehaviour
         else
         {
             // Start service before querying location
-            Input.location.Start();
+            Input.location.Start(5);
 
             // Wait until service initializes
             int maxWait = 20;
