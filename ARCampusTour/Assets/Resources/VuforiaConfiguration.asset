@@ -23,7 +23,11 @@ MonoBehaviour:
     cameraDirection: 0
     mirrorVideoBackground: 0
     version: 8.0.10
+<<<<<<< HEAD
     eulaAcceptedVersions: '{"Values":["7.1","8.0","0.0","7.5"]}'
+=======
+    eulaAcceptedVersions: '{"Values":["7.5","0.0","8.0"]}'
+>>>>>>> 88c46414d1eaa3e64d95e40662675ea4f7512a19
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
