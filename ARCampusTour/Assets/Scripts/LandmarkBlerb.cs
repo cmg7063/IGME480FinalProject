@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class LandmarkBlerb : MonoBehaviour
 {
-    public string shortBlurb;
-    public string longBlurb;
+    public string shortBlurb = "There is no short blurb for this landmark";
+    public string longBlurb = "There is no long blurb for this landmark";
+    public string hyperlink;
 
     public GameObject longBlurbDesc;
     public GameObject shortBlurbDesc;
@@ -14,7 +15,7 @@ public class LandmarkBlerb : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //longBlurbDesc = GameObject.FindGameObjectWithTag("longBlurb");
+        longBlurbDesc = GameObject.FindGameObjectWithTag("longBlurb");
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
 
     }
@@ -22,7 +23,7 @@ public class LandmarkBlerb : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void UpdateShortBlurb()
