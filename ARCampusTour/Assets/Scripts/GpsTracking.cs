@@ -33,7 +33,9 @@ public class GpsTracking : MonoBehaviour
         else
         {
             // Start service before querying location
-            Input.location.Start();
+            // 5(meters) is the accuracy of location
+            // 2(meters) is how far user needs to move for the location to update
+            Input.location.Start(5.0f, 2.0f);
 
             // Wait until service initializes
             int maxWait = 20;
