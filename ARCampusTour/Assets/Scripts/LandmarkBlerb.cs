@@ -35,4 +35,14 @@ public class LandmarkBlerb : MonoBehaviour
         longBlurbDesc.GetComponent<Text>().text = longBlurb;
 
     }
+
+    public void UpdateShortBlurb(string a)
+    {
+        shortBlurbDesc.GetComponent<Text>().text = a;
+    }
+    public void UpdateLongBlurb(string a )
+    {
+        longBlurbDesc.GetComponent<Text>().text = a;
+
+    }
 }

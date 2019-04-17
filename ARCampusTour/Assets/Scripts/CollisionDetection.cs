@@ -7,6 +7,7 @@ public class CollisionDetection : MonoBehaviour
     GameObject player;
     GameObject[] landmarks;
     Canvas canvas;
+    public GameObject testLandmark;
 
     // Start is called before the first frame update
     void Start()
@@ -26,16 +27,23 @@ public class CollisionDetection : MonoBehaviour
 		print(landmarks);
 
         Vector3 playerPos = player.GetComponent<GpsTracking>().GetPosition();
+
+        BuildingBoundary a = testLandmark.GetComponent<BuildingBoundary>();
+
+        testLandmark.GetComponent<LandmarkBlerb>().UpdateLongBlurb("Lat: " + playerPos.x + " Long: " + playerPos.z + "Building lat min: "+ a.GetXMin() + "lat max: " + a.GetXMax() + "long min: " + a.GetZMin()+ "long max: " + a.GetZMax() + "Collided? "+ CollidingObjectsAABB(testLandmark, playerPos));
+        testLandmark.GetComponent<LandmarkBlerb>().UpdateShortBlurb("Lat: " + playerPos.x + " Long: " + playerPos.z + "Building lat min: "+ a.GetXMin() + "lat max: " + a.GetXMax() + "long min: " + a.GetZMin()+ "long max: " + a.GetZMax() + "Collided? "+ CollidingObjectsAABB(testLandmark, playerPos));
+
         //Check collide with all buildings!
+        /*
         for (int i=0; i<landmarks.Length; i++)
         {
             CollidingObjectsAABB((GameObject)landmarks[i], playerPos);
-        }
+        } */
     }
 
 
 
-    // Rather than storing 2 GameObjects as variables, they'll be passed in as arguments
+    // Rather than storing 2 GameObjects as variables, they"ll be passed in as arguments
     bool CollidingObjectsAABB(GameObject a1, Vector3 playerPos)
     {
         // Algorithm:  
