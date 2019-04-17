@@ -2717,6 +2717,24 @@ PrefabInstance:
       propertyPath: longBlurbDesc
       value: 
       objectReference: {fileID: 1342836425}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: An academic building used by several different programs, including the
+        IGME and Film programs.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: 'Website: https://www.rit.edu/magic/ MAGIC Spell Studios is an academic
+        building that houses the Wegmans Theater, a sound stage, a 2D animation lab,
+        a base light color correction suite, a sound mixing facility, an innovation
+        suite, a collaborative partner suite, a VR/AR lab, and a demo lounge. The
+        MAGIC Spell Studio building is an innovation zone that mixes faculty, staff,
+        students, technology, and infrastructure across programs from the School of
+        Film and Animation, the School of Interactive Games and Media, and the RIT
+        Center for Media, Arts, Games, Interaction, and Creativity.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
 --- !u!4 &837607629 stripped
@@ -2906,6 +2924,28 @@ PrefabInstance:
         type: 3}
       propertyPath: boundMin.z
       value: -77.676765
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: 'Website: https://library.rit.edu/ The Wallace Center is composed of
+        5 levels when including the A-Level, which consists of tunnels and offices.
+        The First Floor of the library is popular for group work and is home to Java
+        Wally''s coffee shop. The Second Floor houses the Cary Graphic Design Collection,
+        a number of books, and a few tables. The Third Floor is a quiet floor where
+        you are allowed some noise; this floor is best for individual study. The Fourth
+        Floor is the smallest floor in the library and is a silent floor, meaning
+        there is no talking allowed, making it a great place to go when you want absolutely
+        no distractions. There are many resources available in the library that are
+        available to all students. For example, you can reserve study rooms throughout
+        the library, sign out a laptop for up to 4 hours, and there are a number of
+        places to print and scan documents in the Wallace Library.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: The college library, useful for group projects, computer access,and checking
+        out books/CDs.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
