@@ -60,3 +60,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shortBlurb: 
   longBlurb: 
+  longBlurbDesc: {fileID: 0}
+  shortBlurbDesc: {fileID: 0}
