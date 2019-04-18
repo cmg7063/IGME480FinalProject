@@ -464,7 +464,7 @@ PrefabInstance:
     - target: {fileID: 7203123037610140050, guid: d587428167780434eb7f36ef364a5c36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7203123037610140050, guid: d587428167780434eb7f36ef364a5c36,
         type: 3}
@@ -658,7 +658,7 @@ PrefabInstance:
     - target: {fileID: 4735618098620790294, guid: e0a94af14355f7a4fa36b0d05929ff7e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4735618098620790294, guid: e0a94af14355f7a4fa36b0d05929ff7e,
         type: 3}
@@ -680,6 +680,11 @@ PrefabInstance:
       propertyPath: testLandmark
       value: 
       objectReference: {fileID: 465199480}
+    - target: {fileID: 8877179423302117313, guid: e0a94af14355f7a4fa36b0d05929ff7e,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1584665807}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0a94af14355f7a4fa36b0d05929ff7e, type: 3}
 --- !u!1001 &143401889
@@ -776,6 +781,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 143401889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &214002477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Polisseni
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Home of all RIT men's and women's home hockey games
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Gene Polisseni Center
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &214002478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 214002477}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &253788850
 PrefabInstance:
@@ -1042,6 +1132,92 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 266367120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &275258581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Gleason
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Gleason Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: All RIT shuttle buses shop here Also able to get a public transport bus
+        via this location
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &275258582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 275258581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330339080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,7 +1253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.74, y: 0.17}
   m_AnchorMax: {x: 0.74, y: 0.17}
-  m_AnchoredPosition: {x: 3.800003, y: -0.80000305}
+  m_AnchoredPosition: {x: 3.800003, y: -0.7999878}
   m_SizeDelta: {x: 150, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330339082
@@ -1175,6 +1351,92 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &368169890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Lowenthal/Gosnell
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Lowenthal holds classes for the Saunders College of Business Gosnell
+        has most College of Science classes Home of Bates Study Center
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Max Lowenthal Hall/Thomas Gosnell Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &368169891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 368169890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &369857376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1338,6 +1600,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 372438694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &421671153
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: LBJ
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 77.680725
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Lyndon B. Johnson Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Lyndon B. Johnson hall Houses NTID classes
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &421671154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 421671153}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &442332139
 PrefabInstance:
@@ -1816,7 +2168,7 @@ Transform:
   - {fileID: 779309725}
   - {fileID: 1125627497}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660753062
 GameObject:
@@ -2005,7 +2357,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &663727830
 PrefabInstance:
@@ -2300,7 +2652,7 @@ Transform:
   - {fileID: 1553892521}
   - {fileID: 76162038}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &765656871
 PrefabInstance:
@@ -2512,6 +2864,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400700, guid: 427f72e3e110e5145bf4956336b40f6f,
     type: 3}
   m_PrefabInstance: {fileID: 663727830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &785692236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Tiger
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Tiger Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Built in 1989 Good luck on exams to rub it
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &785692237 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 785692236}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &791299430
 GameObject:
@@ -3136,6 +3573,92 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 890511565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &932561267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: GraceWatson
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Grace Watson Hall Houses Gracie's and Beanz Location of Public Safety
+        office
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Grace Watson Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &932561268 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 932561267}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &933898095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3205,6 +3728,93 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b277e0ba8919ac3458f7cafec853e481, type: 3}
+--- !u!1001 &940773925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Gordon_Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Gordon has the Hale Andrews Life Center, which hosts the gym and intramurals
+        Commencement, Activities Gala, and Relay for Life are hosted here August Center
+        has Center for Psychological Services
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Gordon Fieldhouse/August Health Center
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &940773926 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 940773925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &985013617
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,8 +3917,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103549409}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 160.43826, y: -62.319984, z: 15.679561}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 442332140}
@@ -3341,9 +3951,95 @@ Transform:
   - {fileID: 1701307662}
   - {fileID: 596689276}
   - {fileID: 1736387041}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1313083847}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1124219747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: GreekLawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Greek Lawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Greek Lawn is the location of many events, including Greek recruiting
+        and SpringFest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1124219748 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1124219747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1125627496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3453,6 +4149,93 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 1125627496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1141688618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Golisano
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Golisano is home to College of Computing and Information Sciences Home
+        to Society of Software Engineers and Comptuer Science Commnunity Houses Ctrl
+        Alt Deli Orange Hall hosts computing classes as well
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Thomas E. Golisano Hall/Orange Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1141688619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1141688618}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1164445882
 PrefabInstance:
@@ -3564,7 +4347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19, y: 0.17}
   m_AnchorMax: {x: 0.19, y: 0.17}
-  m_AnchoredPosition: {x: 2, y: -0.80000305}
+  m_AnchoredPosition: {x: 2, y: -0.7999878}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1193746866
@@ -3756,6 +4539,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 1200846291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1254452599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: GlobalVillage
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Popular student housing location, especially for second-year students
+        Hosts many dining options, including Crossroads Market and Cafe, Global Grille,
+        and Salsarita's Has many place to run errands, including Shear Global Hair
+        Salon, Global Village post office, and Shop One Hosts some concert events
+        in the plaza
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Global Village Plaza
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1254452600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1254452599}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1269079951
 PrefabInstance:
@@ -4076,6 +4948,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1306183821}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1313083846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1313083847}
+  m_Layer: 0
+  m_Name: OldPath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1313083847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313083846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -160.43826, y: 62.319984, z: -15.679561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1454154304}
+  - {fileID: 1103549410}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1342836425
 GameObject:
   m_ObjectHideFlags: 0
@@ -4311,8 +5215,96 @@ Transform:
   m_Children:
   - {fileID: 784196841}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1384754109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Wallace_COLA
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Liberal Arts Hall host many Liberal Arts classes Wallace Library has
+        four floors, each getting quieter as you go up Java Wally's can be found in
+        here Also holds ITS services, the Writing Commons, and the ASL and Deaf Studies
+        Community Center
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Wallace Library/Liberal Arts Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1384754110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1384754109}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1421047431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4387,6 +5379,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 1421047431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1436208030
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Gannet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Frank E. Gannett Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Hosts photography and film classes Has the Cage, where you can rent out
+        cameras for personal use
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1436208031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1436208030}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1439468140
 PrefabInstance:
@@ -4486,8 +5564,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454154303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 160.43826, y: -62.319984, z: 15.679561}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 836014451}
@@ -4500,9 +5578,182 @@ Transform:
   - {fileID: 2115327464}
   - {fileID: 1939142880}
   - {fileID: 1164445883}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1313083847}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1458962558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: NRH
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Nathaniel Rochester Hall is a Freshman dorm building Has the Freshman
+        printing center, the Freshman post office, and ResNet Also has the Corner
+        Store Computer Science House is located on the third floor of this building
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Nathaniel Rochester Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1458962559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1458962558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1536407311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Sol
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Sol Heumann Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Sol Heumann Hall is a Freshman dorm building Location of Sol's Underground
+        Houses Sol's Study Center
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1536407312 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1536407311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1553892520 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3362326451275227992, guid: b277e0ba8919ac3458f7cafec853e481,
@@ -4514,6 +5765,94 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1417725611020879941, guid: b277e0ba8919ac3458f7cafec853e481,
     type: 3}
   m_PrefabInstance: {fileID: 369857376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1583677669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Campus_Clark_Ritter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Campus Center/Clark Gym/Frank Ritter Ice Arena Campus Center has the
+        Student Government, Student Life, and Club offices Also houses the Schmitt
+        Interfaith Center Also has the Fireside Lounge, the main student lounge on
+        campus Clark Gym and Ritter Ice Arena host many sports and intramural events
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Campus Center/Clark Gym/Frank Ritter Ice Arena
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1583677670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1583677669}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1584665804
 GameObject:
@@ -4627,6 +5966,265 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ec4ac488abbf84db07d549834803f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showMore: {fileID: 330339084}
+  closeBlock: {fileID: 1193746868}
+--- !u!1001 &1589275582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Gleason
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Location of College of Engineering courses Houses Brinkman Machine Tools
+        and Manufacturing Laboratory Engineering Hall has Mircosystems labs
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: James E. Gleason Hall/Engineering Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1589275583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1589275582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1604474057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: USC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Houses Simone Center for Student Innovation Home to Career Services office
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: University Services Center
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1604474058 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1604474057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1672876669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Geason_Res
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Kate Gleason Hall is aFreshman dorm building Center for Residence Life
+        office is located here
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Kate Gleason Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1672876670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672876669}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1701307661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4912,6 +6510,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1728764076}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1736025850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736025851}
+  m_Layer: 0
+  m_Name: NewPath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736025851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736025850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -160.43826, y: 62.319984, z: -15.679561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 421671154}
+  - {fileID: 2093297806}
+  - {fileID: 1536407312}
+  - {fileID: 1458962559}
+  - {fileID: 1672876670}
+  - {fileID: 932561268}
+  - {fileID: 1124219748}
+  - {fileID: 940773926}
+  - {fileID: 1583677670}
+  - {fileID: 1913649072}
+  - {fileID: 1839836738}
+  - {fileID: 785692237}
+  - {fileID: 1436208031}
+  - {fileID: 1957966092}
+  - {fileID: 1384754110}
+  - {fileID: 214002478}
+  - {fileID: 275258582}
+  - {fileID: 368169891}
+  - {fileID: 1589275583}
+  - {fileID: 1141688619}
+  - {fileID: 1604474058}
+  - {fileID: 2139771250}
+  - {fileID: 1254452600}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736387040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5113,8 +6764,95 @@ Transform:
   - {fileID: 1894470105}
   - {fileID: 890511566}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1839836737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Eastman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Houses many administrative offices, including Registrar and President
+        Office of Diversity and Inclusion is here as well First building listed in
+        the main building list
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: George Eastman Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1839836738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1839836737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1873246607
 GameObject:
   m_ObjectHideFlags: 0
@@ -5320,6 +7058,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1894470104}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1913649071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: SAU_Monroe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Main student center on campus Hosts Ben and Jerry's, Nathan's, Brick
+        City Cafe, and Ritz Sports Zone Includes music rooms, the Mosaic Center, and
+        the Reading Room Ingle Auditorium hosts many concert and movie events Monroe
+        Hall has Artesano's and Bytes Also has the Digital Den Academic Support Center
+        and English Language Center are here as well
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Student Alumni Union/Monroe Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1913649072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1913649071}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1939142879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5489,6 +7316,93 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 1942956565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1957966091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Booth
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Booth Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Houses the Vignelli Center and the Bevier Gallery Location of many design
+        classes Home to Webb Auditorium and University Gallery; both host many student
+        events
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &1957966092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1957966091}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1978248562
 PrefabInstance:
@@ -5824,8 +7738,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45, y: 0.16}
   m_AnchorMax: {x: 0.45, y: 0.16}
-  m_AnchoredPosition: {x: -83, y: -16}
-  m_SizeDelta: {x: 838, y: 690}
+  m_AnchoredPosition: {x: -162, y: -110.400024}
+  m_SizeDelta: {x: 838, y: 723.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037951953
 MonoBehaviour:
@@ -5939,6 +7853,93 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2039532881}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2093297805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: CSD_Ellingson
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Center for Student Development is often abbreviated as CSD. Mark Ellingson
+        Hall is often called Ellingson. CSD hosts The Commons and USB No Voice Zone
+        is found in CSD Ellingson Hall houses most NTID students
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Center for Student Development/Mark Ellingson Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &2093297806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093297805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2115327463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6013,4 +8014,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
     type: 3}
   m_PrefabInstance: {fileID: 2115327463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2139771249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736025851}
+    m_Modifications:
+    - target: {fileID: 7316355236346360693, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Ross_Carey_Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: longBlurb
+      value: Ross holds Munsell Color Science Laboratory and ROTC office Carey has
+        many administrative offices Brown hosts some classes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: shortBlurb
+      value: Lewis P. Ross Hall/Hugh L. Carey Hall/Brown Hall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
+--- !u!4 &2139771250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7765854887570893051, guid: 3ba57fb69fe165149bc807454ebc65ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 2139771249}
   m_PrefabAsset: {fileID: 0}

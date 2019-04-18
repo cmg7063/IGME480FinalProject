@@ -6,18 +6,18 @@ public class CollisionDetection : MonoBehaviour
 {
     GameObject player;
     GameObject[] landmarks;
-    Canvas canvas;
+    public Canvas canvas;
     public GameObject testLandmark;
+    GameObject lastCollided;
 
     // Start is called before the first frame update
     void Start()
     {
         player = gameObject;
+        lastCollided = gameObject;
 
         //get all locations
 		landmarks = GameObject.FindGameObjectsWithTag("Landmark");
-        //get canvas
-        canvas = GameObject.FindObjectOfType<Canvas>();
     }
 
     // Update is called once per frame
@@ -46,6 +46,7 @@ public class CollisionDetection : MonoBehaviour
     // Rather than storing 2 GameObjects as variables, they"ll be passed in as arguments
     bool CollidingObjectsAABB(GameObject a1, Vector3 playerPos)
     {
+        if (lastCollided.name.Equals(a1.name)) return false;
         // Algorithm:  
         // 1. Get the coordinates of both A and B
         // 2. Compare their left, right, top and bottom edges
@@ -70,6 +71,9 @@ public class CollisionDetection : MonoBehaviour
             {
                 a1.GetComponent<LandmarkBlerb>().UpdateLongBlurb();
                 a1.GetComponent<LandmarkBlerb>().UpdateShortBlurb();
+                //show block!
+                canvas.GetComponent<BlurbController>().ShowBlock();
+                lastCollided = a1;
                 return true;
             }
         }
