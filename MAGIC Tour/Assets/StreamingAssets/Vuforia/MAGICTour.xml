@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="2175-Media_Development_Lab" size="1.000000 0.995882" />
+    <ImageTarget name="2160-Color_Correction" size="1.000000 1.920696" />
+    <ImageTarget name="2150-Media_Development_Lab" size="1.000000 0.953307" />
+    <ImageTarget name="2140-Sound_Mixing_And_Color_Correction" size="1.000000 0.938248" />
+  </Tracking>
+</QCARConfig>
