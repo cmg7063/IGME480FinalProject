@@ -11,6 +11,10 @@ public class BlurbController : MonoBehaviour
     private GameObject longBlurbDesc;
     private GameObject shortBlurbDesc;
     private GameObject blurbBlock;
+    private GameObject websiteBlock;
+
+    private string link;
+    private bool hasLink;
 
     private int x;
 
@@ -24,9 +28,30 @@ public class BlurbController : MonoBehaviour
         longBlurbDesc = GameObject.FindGameObjectWithTag("longBlurb");
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
         blurbBlock = GameObject.FindGameObjectWithTag("blurbBlock");
+        websiteBlock = GameObject.FindGameObjectWithTag("websiteBlock");
         //longBlurbDesc.SetActive(false);
 
         x = 0;
+
+        link = GameObject.FindGameObjectWithTag("Landmark").GetComponent<LandmarkBlerb>().GetLink();
+        websiteBlock.GetComponentInChildren<Text>().text = "";
+
+        // If the link variable in the LandmarkBlerb script is empty, this location does not have a website therefore do not show text for website
+        if (string.IsNullOrEmpty(link))
+        {
+            hasLink = false;
+            //websiteBlock.SetActive(false);
+        }
+    }
+
+    public void ClickLink()
+    {
+        if(hasLink)
+        {
+            //websiteBlock.SetActive(true);
+            websiteBlock.GetComponentInChildren<Text>().text = "Website";
+            Application.OpenURL(link);
+        }
     }
 
     public void ShowMore()

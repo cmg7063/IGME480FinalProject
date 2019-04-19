@@ -11,6 +11,7 @@ TagManager:
   - PathPoint
   - blurbBlock
   - closeBlock
+  - websiteBlock
   layers:
   - Default
   - TransparentFX

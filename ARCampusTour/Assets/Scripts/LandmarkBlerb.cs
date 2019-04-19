@@ -26,6 +26,15 @@ public class LandmarkBlerb : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Get-Method to return hyperlink for access by BlurbController script.
+    /// </summary>
+    /// <returns> String hyperlink </returns>
+    public string GetLink()
+    {
+        return hyperlink;
+    }
+
     public void UpdateShortBlurb()
     {
         shortBlurbDesc.GetComponent<Text>().text = shortBlurb;
