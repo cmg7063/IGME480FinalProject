@@ -44,13 +44,14 @@ This document contains the final route for the program to follow.
   * Gordon has the Hale Andrews Life Center, which hosts the gym and intramurals
   * Commencement, Activities Gala, and Relay for Life are hosted here
   * August Center has Center for Psychological Services
+  * 43.084072, -77.672547; 43.084478, -77.671693
 
 9. Campus Center/Clark Gym/Frank Ritter Ice Arena
   * Campus Center has the Student Government, Student Life, and Club offices
   * Also houses the Schmitt Interfaith Center
   * Also has the Fireside Lounge, the main student lounge on campus
   * Clark Gym and Ritter Ice Arena host many sports and intramural events
-
+  * 43.083950, -77.673980;  43.084404, -77.673240
 
 ## Academic Buildings - Kodak + Infinity Quads
 
@@ -62,15 +63,18 @@ This document contains the final route for the program to follow.
   * Monroe Hall has Artesano's and Bytes
   * Also has the Digital Den
   * Academic Support Center and English Language Center are here as well
+  * 43.084104, -77.674784;  43.084417, -77.674131 
   
 2. George Eastman Hall
   * Houses many administrative offices, including Registrar and President
   * Office of Diversity and Inclusion is here as well
   * First building listed in the main building list
+  * 43.084213, -77.675393;  43.084521, -77.675121 
 
 3. Tiger Statue
   * Built in 1989
   * Good luck on exams to rub it
+  * 43.084108, -77.675728;  43.084295, -77.675437 
 
 4. Frank E. Gannett Hall
   * Hosts photography and film classes
