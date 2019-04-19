@@ -1883,7 +1883,22 @@ PrefabInstance:
     - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
       propertyPath: boundMin.x
-      value: 77.680725
+      value: 43.086586
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.086945
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.66764
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.668274
       objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
@@ -1894,6 +1909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: longBlurb
       value: Lyndon B. Johnson hall Houses NTID classes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: hyperlink
+      value: https://www.ntid.rit.edu/
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
@@ -3793,6 +3813,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.084274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.66852
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 43.083862
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.66897
+      objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
       propertyPath: longBlurb
@@ -3959,6 +3999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: shortBlurb
       value: Gordon Fieldhouse/August Health Center
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: hyperlink
+      value: https://www.rit.edu/studentaffairs/criw/indoor-facilities.php
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
@@ -4174,6 +4219,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.08459
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.67071
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 43.08416
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.670105
+      objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
       propertyPath: shortBlurb
@@ -4381,6 +4446,11 @@ PrefabInstance:
         type: 3}
       propertyPath: shortBlurb
       value: Thomas E. Golisano Hall/Orange Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: hyperlink
+      value: https://www.rit.edu/gccis/
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
@@ -4763,7 +4833,7 @@ PrefabInstance:
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
       propertyPath: longBlurb
-      value: Popular student housing location, especially for second-year students
+      value: Popular student housing location, especially for second-year students.
         Hosts many dining options, including Crossroads Market and Cafe, Global Grille,
         and Salsarita's Has many place to run errands, including Shear Global Hair
         Salon, Global Village post office, and Shop One Hosts some concert events
@@ -5387,6 +5457,11 @@ PrefabInstance:
       propertyPath: shortBlurb
       value: Wallace Library/Liberal Arts Hall
       objectReference: {fileID: 0}
+    - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: hyperlink
+      value: https://library.rit.edu/
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba57fb69fe165149bc807454ebc65ab, type: 3}
 --- !u!4 &1384754110 stripped
@@ -5738,6 +5813,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 43.084713
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.085083
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.66829
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.66773
+      objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
       propertyPath: longBlurb
@@ -5824,6 +5919,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.085453
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.66779
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 43.085243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.667244
       objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
@@ -6295,6 +6410,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.08456
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.668785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 43.084156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.668236
       objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
@@ -8010,6 +8145,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.x
+      value: 43.086514
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.z
+      value: -77.66855
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMin.x
+      value: 43.086147
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529407858217102195, guid: 3ba57fb69fe165149bc807454ebc65ab,
+        type: 3}
+      propertyPath: boundMax.z
+      value: -77.668144
       objectReference: {fileID: 0}
     - target: {fileID: 6234921792459869361, guid: 3ba57fb69fe165149bc807454ebc65ab,
         type: 3}
