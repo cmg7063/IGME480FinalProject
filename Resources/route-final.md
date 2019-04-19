@@ -5,33 +5,40 @@ This document contains the final route for the program to follow.
 
 1. Lyndon B. Johnson Hall
   * Houses NTID classes
+  * 43.086943, -77.668277; 43.086587, -77.667638
 
 2. Center for Student Development/Mark Ellingson Hall 
   * CSD hosts The Commons and USB
   * No Voice Zone is found in CSD
   * Ellingson Hall houses most NTID students
+  * 43.086514, -77.668548; 43.086149, -77.668142
 
 3. Sol Heumann Hall
   * Freshman dorm building
   * Location of Sol's Underground
   * Houses Sol's Study Center
+  * 43.085454, -77.667791; 43.085244, -77.667243
 
 4. Nathaniel Rochester Hall
   * Freshman dorm building
   * Has the Freshman printing center, the Freshman post office, and ResNet
   * Also has the Corner Store
   * Computer Science House is located on the third floor of this building
+  * 43.085083, -77.668292; 43.084713, -77.667735
 
 5. Kate Gleason Hall
   * Freshman dorm building
   * Center for Residence Life office is located here
+  * 43.084562, -77.668782, 43.084157, -77.668234
 
 6. Grace Watson Hall
   * Houses Gracie's and Beanz
   * Location of Public Safety office
+  * 43.084276, -77.668517; 43.083861, -77.668972
 
 7. Greek Lawn
   * Location of many events, including Greek recruiting and SpringFest
+  * 43.084590, -77.670710; 43.084158, -77.670104
 
 8. Gordon Fieldhouse/August Health Center
   * Gordon has the Hale Andrews Life Center, which hosts the gym and intramurals
