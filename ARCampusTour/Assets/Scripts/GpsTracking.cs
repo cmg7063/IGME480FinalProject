@@ -70,8 +70,8 @@ public class GpsTracking : MonoBehaviour
         // Start is called before the first frame update
         void Start()
     {
-        latitude = 0f;
-        longitude = 0f;
+        //latitude = 0f;
+        //longitude = 0f;
         altitude = 0f;
 
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");

@@ -24,21 +24,21 @@ public class CollisionDetection : MonoBehaviour
     void Update()
     {
 		
-		print(landmarks);
+		//print(landmarks);
 
         Vector3 playerPos = player.GetComponent<GpsTracking>().GetPosition();
 
         BuildingBoundary a = testLandmark.GetComponent<BuildingBoundary>();
 
-        testLandmark.GetComponent<LandmarkBlerb>().UpdateLongBlurb("Lat: " + playerPos.x + " Long: " + playerPos.z + "Building lat min: "+ a.GetXMin() + "lat max: " + a.GetXMax() + "long min: " + a.GetZMin()+ "long max: " + a.GetZMax() + "Collided? "+ CollidingObjectsAABB(testLandmark, playerPos));
-        testLandmark.GetComponent<LandmarkBlerb>().UpdateShortBlurb("Lat: " + playerPos.x + " Long: " + playerPos.z + "Building lat min: "+ a.GetXMin() + "lat max: " + a.GetXMax() + "long min: " + a.GetZMin()+ "long max: " + a.GetZMax() + "Collided? "+ CollidingObjectsAABB(testLandmark, playerPos));
+        //testLandmark.GetComponent<LandmarkBlerb>().UpdateLongBlurb("Lat: " + playerPos.x + " Long: " + playerPos.z + "Building lat min: "+ a.GetXMin() + "lat max: " + a.GetXMax() + "long min: " + a.GetZMin()+ "long max: " + a.GetZMax() + "Collided? "+ CollidingObjectsAABB(testLandmark, playerPos));
+        //testLandmark.GetComponent<LandmarkBlerb>().UpdateShortBlurb("Lat: " + playerPos.x + " Long: " + playerPos.z + "Building lat min: "+ a.GetXMin() + "lat max: " + a.GetXMax() + "long min: " + a.GetZMin()+ "long max: " + a.GetZMax() + "Collided? "+ CollidingObjectsAABB(testLandmark, playerPos));
 
         //Check collide with all buildings!
-        /*
+        
         for (int i=0; i<landmarks.Length; i++)
         {
             CollidingObjectsAABB((GameObject)landmarks[i], playerPos);
-        } */
+        } 
     }
 
 
@@ -46,7 +46,8 @@ public class CollisionDetection : MonoBehaviour
     // Rather than storing 2 GameObjects as variables, they"ll be passed in as arguments
     bool CollidingObjectsAABB(GameObject a1, Vector3 playerPos)
     {
-        if (lastCollided.name.Equals(a1.name)) return false;
+        //Debug.Log(lastCollided.name);
+        if (lastCollided.name.Equals(a1.name)) return true;
         // Algorithm:  
         // 1. Get the coordinates of both A and B
         // 2. Compare their left, right, top and bottom edges
@@ -74,6 +75,8 @@ public class CollisionDetection : MonoBehaviour
                 //show block!
                 canvas.GetComponent<BlurbController>().ShowBlock();
                 lastCollided = a1;
+
+                Debug.Log("I have collided with " + a1.name);
                 return true;
             }
         }
