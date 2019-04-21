@@ -79,29 +79,35 @@ This document contains the final route for the program to follow.
 4. Frank E. Gannett Hall
   * Hosts photography and film classes
   * Has the Cage, where you can rent out cameras for personal use
+  *  43.085070989345866,  -77.67623841486528; 43.08460868123092,  -77.67555176935747
 
 5. Booth Hall
   * Houses the Vignelli Center and the Bevier Gallery
   * Location of many design classes
   * Home to Webb Auditorium and University Gallery; both host many student events
+  * 43.085065112569666,  -77.67718255243852; 43.08449310365702, -77.676546868902
 
 6. Wallace Library/Liberal Arts Hall
   * Liberal Arts Hall host many Liberal Arts classes
   * Wallace Library has four floors, each getting quieter as you go up
   * Java Wally's can be found in here
   * Also holds ITS services, the Writing Commons, and the ASL and Deaf Studies Community Center
+  * 43.08432102199603, -77.67674732412672;  43.08407419388941, -77.67605531420088
 
 7. Gene Polisseni Center
   * Home of all RIT men's and women's home hockey games
+  * 43.08349787304007,  -77.67546845246648; 43.08271819578904, -77.67452431489323
    
 8. Gleason Circle
   * All RIT shuttle buses shop here
   * Also able to get a public transport bus via this location
+  * 43.08333919581079,  -77.67635894585942; 43.082876874626784,  -77.67576349545811
 
 9. Max Lowenthal Hall/Thomas Gosnell Hall
  * Lowenthal holds classes for the Saunders College of Business
  * Gosnell has most College of Science classes
  * Home of Bates Study Center
+ * 43.083356826634336, -77.67753643561696;  43.08312370755745, -77.6769678073058
 
 
 ## Academic Buildings (cont.) + Global Village
@@ -109,18 +115,22 @@ This document contains the final route for the program to follow.
 1. James E. Gleason Hall/Engineering Hall
   * Short: James E Gleason and the Enginering Halls host many classes for the College of Engineering. 
   * Long: In addition to the courses for the College of Engineering, Gleason Hall houses the Brinkman Machine Tools and Manufacturing Laboratory. The Engineering Hall also has Mircosystems labs.
+  * 43.08400524562006, -77.67844034005498; 43.08363304220752, -77.67808628846501
 
 2. Thomas E. Golisano Hall/Orange Hall
   * Short: Here we see Thomas E. Golisano and Orange Hall. These primarily house classes in the Golisano College of Computing and Information Sciences (GCCIS) college. 
   * Long: Golisano is home to College of Computing and Information Sciences, as well as home to Society of Software Engineers and Comptuer Science Commnunity. A deli called Ctrl Alt Deli is in Golisano and a GCCIS favorite for lunch. Orange Hall also hosts computing classes, as well as some administrative offices. 
+  * 43.08397194330157, -77.67961978154545; 43.08371335997736,  -77.67915307717686
 
 3. University Services Center
   * Short: The University Services Center houses the Simone Center for Student Innovation.
   * Long: The University Services Center is also home to the Career Services office. It is also a popular place to wait between classes and do some work. 
+  * 43.083399924181656 ,  -77.679719023279; 43.08318051817052, -77.67933546738988
 
 4. Lewis P. Ross Hall/Hugh L. Carey Hall/Brown Hall
   * Short: Here you can see academic buildings Lewis P. Ross, Hugh L. Carey, and Brown.
   * Long: Ross Hall holds the Munsell Color Science Laboratory as well as ROTC office. Carey Hall has many administrative offices. Brown hosts some classes.
+  * 43.08315309236389, -77.67883925872212; 43.08287491563127 , -77.67832695680028
 
 5. Global Village Plaza
   * Short: Global Village Plaza is a popular housing and dining location.
@@ -128,3 +138,4 @@ This document contains the final route for the program to follow.
   It hosts many dining options, including Crossroads Market and Cafe, Global Grille, and Salsarita's, as well as 
   has many places to run errands, including Shear Global Hair Salon, Global Village Post Office, and Shop One, a shop 
   which caries products made by RIT students and staff. Concerts and other events are sometimes held in this plaza.
+  * 43.08302184011927 , -77.68017566621592;  43.08274953978957,  -77.67995840728571
