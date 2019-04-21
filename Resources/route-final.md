@@ -107,27 +107,24 @@ This document contains the final route for the program to follow.
 ## Academic Buildings (cont.) + Global Village
 
 1. James E. Gleason Hall/Engineering Hall
-  * Location of College of Engineering courses
-  * Houses Brinkman Machine Tools and Manufacturing Laboratory
-  * Engineering Hall has Mircosystems labs
+  * Short: James E Gleason and the Enginering Halls host many classes for the College of Engineering. 
+  * Long: In addition to the courses for the College of Engineering, Gleason Hall houses the Brinkman Machine Tools and Manufacturing Laboratory. The Engineering Hall also has Mircosystems labs.
 
 2. Thomas E. Golisano Hall/Orange Hall
-  * Golisano is home to College of Computing and Information Sciences
-  * Home to Society of Software Engineers and Comptuer Science Commnunity
-  * Houses Ctrl Alt Deli
-  * Orange Hall hosts computing classes as well
+  * Short: Here we see Thomas E. Golisano and Orange Hall. These primarily house classes in the Golisano College of Computing and Information Sciences (GCCIS) college. 
+  * Long: Golisano is home to College of Computing and Information Sciences, as well as home to Society of Software Engineers and Comptuer Science Commnunity. A deli called Ctrl Alt Deli is in Golisano and a GCCIS favorite for lunch. Orange Hall also hosts computing classes, as well as some administrative offices. 
 
 3. University Services Center
-  * Houses Simone Center for Student Innovation
-  * Home to Career Services office
+  * Short: The University Services Center houses the Simone Center for Student Innovation.
+  * Long: The University Services Center is also home to the Career Services office. It is also a popular place to wait between classes and do some work. 
 
 4. Lewis P. Ross Hall/Hugh L. Carey Hall/Brown Hall
-  * Ross holds Munsell Color Science Laboratory and ROTC office
-  * Carey has many administrative offices
-  * Brown hosts some classes
+  * Short: Here you can see academic buildings Lewis P. Ross, Hugh L. Carey, and Brown.
+  * Long: Ross Hall holds the Munsell Color Science Laboratory as well as ROTC office. Carey Hall has many administrative offices. Brown hosts some classes.
 
 5. Global Village Plaza
-  * Popular student housing location, especially for second-year students
-  * Hosts many dining options, including Crossroads Market and Cafe, Global Grille, and Salsarita's
-  * Has many place to run errands, including Shear Global Hair Salon, Global Village post office, and Shop One
-  * Hosts some concert events in the plaza
+  * Short: Global Village Plaza is a popular housing and dining location.
+  * Long: Global Village Plaza is a popular student housing location, especially for second-year students.
+  It hosts many dining options, including Crossroads Market and Cafe, Global Grille, and Salsarita's, as well as 
+  has many places to run errands, including Shear Global Hair Salon, Global Village Post Office, and Shop One, a shop 
+  which caries products made by RIT students and staff. Concerts and other events are sometimes held in this plaza.
