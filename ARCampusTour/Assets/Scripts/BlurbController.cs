@@ -21,6 +21,9 @@ public class BlurbController : MonoBehaviour
     private Vector2 visiblePos = new Vector2(21.0f, -5.0f);
     private Vector2 notVisiblePos = new Vector2(-2000.0f, -2000.0f);
 
+    // Sound stuff
+    public AudioClip closeSound;
+    private AudioSource source;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +38,9 @@ public class BlurbController : MonoBehaviour
 
         link = GameObject.FindGameObjectWithTag("Landmark").GetComponent<LandmarkBlerb>().GetLink();
         websiteBlock.GetComponentInChildren<Text>().text = "";
+
+        // Get the audio source
+        source = GetComponent<AudioSource>();
 
         // If the link variable in the LandmarkBlerb script is empty, this location does not have a website therefore do not show text for website
         if (string.IsNullOrEmpty(link))
@@ -78,6 +84,7 @@ public class BlurbController : MonoBehaviour
 
     public void CloseBlock()
     {
+        source.PlayOneShot(closeSound, 0.5f);
         blurbBlock.SetActive(false);
     }
 

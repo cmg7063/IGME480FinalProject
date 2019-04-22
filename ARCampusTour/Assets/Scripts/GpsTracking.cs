@@ -14,6 +14,9 @@ public class GpsTracking : MonoBehaviour
     public string shortBlurb;
     private GameObject shortBlurbDesc;
 
+    // Sound that will play once the tracking starts
+    public AudioClip startSound;
+    private AudioSource source;
 
     IEnumerator StartUpdatingLocation()
     {
@@ -62,6 +65,7 @@ public class GpsTracking : MonoBehaviour
             else
             {
                 // Access granted and location value could be retrieved
+                source.PlayOneShot(startSound, 1.0f);
                 print("Location: " + Input.location.lastData.latitude + " " + Input.location.lastData.longitude + " " + Input.location.lastData.altitude + " " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp);
             }
         }
@@ -73,7 +77,7 @@ public class GpsTracking : MonoBehaviour
         //latitude = 0f;
         //longitude = 0f;
         altitude = 0f;
-
+        source = GetComponent<AudioSource>();
         shortBlurbDesc = GameObject.FindGameObjectWithTag("shortBlurb");
     }
 
