@@ -13,4 +13,4 @@ Get tiger working immediately -> Project does not currently have an AR component
 ## Classmate's Feedback
 
 Very impressed with Geolocation
-No other feedback was given
+(No other feedback was given)
