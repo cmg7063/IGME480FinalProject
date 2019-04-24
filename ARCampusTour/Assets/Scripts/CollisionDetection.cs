@@ -70,8 +70,8 @@ public class CollisionDetection : MonoBehaviour
         {
             if (aMinZ < bZ && bZ < aMaxZ)
             {
-                a1.GetComponent<LandmarkBlerb>().UpdateLongBlurb();
-                a1.GetComponent<LandmarkBlerb>().UpdateShortBlurb();
+                //a1.GetComponent<LandmarkBlerb>().UpdateLongBlurb();
+                //a1.GetComponent<LandmarkBlerb>().UpdateShortBlurb();
                 //show block!
                 canvas.GetComponent<BlurbController>().ShowBlock();
                 lastCollided = a1;

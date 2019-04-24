@@ -32,9 +32,12 @@ public class GpsTracking : MonoBehaviour
             altitude = Input.location.lastData.altitude;
 
             //shortBlurbDesc.GetComponent<Text>().text = "Latitude: " + latitude + "   Longitude: " + longitude + "   Altitude: " + altitude;
+            shortBlurbDesc.GetComponent<Text>().text = "Compass Magnetic Direction: " + Input.compass.magneticHeading + "   True Direction: " + Input.compass.trueHeading;
         }
         else
         {
+            // Start compass
+            Input.compass.enabled = true;
             // Start service before querying location
             // 5(meters) is the accuracy of location
             // 2(meters) is how far user needs to move for the location to update
@@ -103,5 +106,10 @@ public class GpsTracking : MonoBehaviour
     public Vector3 GetPosition()
     {
         return new Vector3(latitude, altitude, longitude);
+    }
+
+    public float GetDirection()
+    {
+        return Input.compass.magneticHeading;
     }
 }
