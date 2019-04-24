@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Vue and Google Maps</title>
+	<script src="map_data/coffee-data.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<style>
+	 #map {
+	 			width: 1500px;
+        height: 800px;
+    }
+	</style>
+</head>
+<body>
+<div id="root">
+	 <div id="map"></div>
+		<p>
+			<button @click="setZoom(1)">World Zoom (1)</button>
+			<button @click="setZoom(16)">Default Zoom (16)</button>
+			<button @click="setZoom(20)">Building Zoom (20)</button>
+			<button @click="setZoom(18)">Isometric View (18)</button>
+    </p>
+</div>
+
+<script>
+"use strict";
+/*
+	Make `app` a global by using `var`, now we can ...&callback=app.initMap from the link above
+*/
+var app = new Vue({
+	el: "#root",
+	methods:{
+	
+		initMap(){
+			const mapOptions = {
+				center: {lat:43.083848, lng:-77.6799},
+				zoom: 16,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+
+			this.map = new google.maps.Map(document.getElementById('map'), mapOptions);
+			this.map.mapTypeId = 'satellite';
+			this.map.setTilt(45);
+			this.coffeeShops = coffeeShops;
+		/*	for(let obj of this.coffeeShops){
+        this.addMarker(obj.latitude, obj.longitude, obj.title);
+      }
+*/
+			google.maps.event.addListener(this.map, 'click', ( event )=>{
+			let name = prompt( "Latitude: "+event.latLng.lat()+" "+", longitude: "+event.latLng.lng() , "Name"); 
+			console.log(name +" " + event.latLng.lat()+",  "+event.latLng.lng() )
+			this.addMarker(event.latLng.lat(), event.latLng.lng(), name)
+});
+		},
+		
+		addMarker(latitude,longitude,title) {
+			let position = {lat:latitude,lng:longitude};
+  		let marker = new google.maps.Marker({position: position, map:this.map});
+  		marker.setTitle(title);
+  		// Add a listener for the click event
+			google.maps.event.addListener(marker, 'click', function(e){
+				// `this` doesn't work here - because it refers to the marker that was clicked on - use `app` instead
+				app.makeInfoWindow(this.position,this.title);
+			});
+		},
+		
+		makeInfoWindow(position,msg){
+		 // Close old InfoWindow if it exists
+      if(this.infowindow) this.infowindow.close();
+      	 	
+      // Make a new InfoWindow
+      this.infowindow = new google.maps.InfoWindow({
+            map: this.map,
+            position: position,
+            content: "<b>" + msg + "</b>"
+      });
+    },
+		
+		setZoom(zoomLevel){
+      this.map.setZoom(zoomLevel);
+		}
+	}
+});
+  
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCePlPwW7EMYLo2YH9gj5fnZBNxlGubBrk&callback=app.initMap" async defer></script>
+
+</body>
+</html>
