@@ -4,7 +4,19 @@ using UnityEngine;
 
 public class PathFollowing : MonoBehaviour
 {
-    public Vector3[] pathPoints = new Vector3[] {
+    public GameObject player;
+
+    public Vector3[] pathPoints;
+    public int currIndex; //current target
+    public float posMargin = 1.05f; //margin of error to switch to next target
+    public bool isMoving; //set to false when blurb pops up, set to true when user closes blurb
+    public float maxDistToPlayer; //max distance the guide can be from the player
+    public GameObject arrow;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        pathPoints = new Vector3[] {
         new Vector3(43.08665663569291f, 0, -77.66828682742374f),
      new Vector3(43.08649502832579f, 0,-77.66815808139103f),
      new Vector3(43.08627073618251f, 0, -77.66815942249553f),
@@ -86,33 +98,18 @@ public class PathFollowing : MonoBehaviour
     new Vector3(43.0829535644383f, 0,-77.68061409154086f),
      new Vector3(43.08293005651772f, 0,-77.6808554903522f)
     };
-    public int currIndex; //current target
-    public float posMargin; //margin of error to switch to next target
-    public bool isMoving; //set to false when blurb pops up, set to true when user closes blurb
-    public float maxDistToPlayer; //max distance the guide can be from the player
-
-    // Start is called before the first frame update
-    void Start()
-    {
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 currPos = gameObject.transform.position;
+        Vector3 currPos = player.GetComponent<GpsTracking>().GetPosition();
         Vector3 goal = pathPoints[currIndex];
-        Vector3 nextPos = currPos;
+        print(currIndex);
 
-        Vector3 direction = (goal - currPos).normalized;
+        print((goal - currPos).magnitude);
 
-        nextPos = currPos + maxDistToPlayer*direction;
-
-        Quaternion nextRot = gameObject.transform.rotation;
-
-        gameObject.transform.SetPositionAndRotation(nextPos, nextRot);
-
-
-        if ((nextPos - pathPoints[currIndex]).magnitude < posMargin)
+        if ((goal - currPos).magnitude < posMargin)
         {
             currIndex++;
             if (currIndex >= pathPoints.Length)
@@ -120,6 +117,7 @@ public class PathFollowing : MonoBehaviour
                 //End the tour!!!!
                 currIndex = 0;
             }
+            arrow.GetComponent<ArrowDirection>().UpdateTarget(pathPoints[currIndex]);
         }
         
     }

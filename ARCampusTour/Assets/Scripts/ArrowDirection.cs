@@ -6,6 +6,7 @@ public class ArrowDirection : MonoBehaviour
 {
     GameObject player;
     GameObject arrow;
+    Vector3 target;
 
     // Start is called before the first frame update
     void Start()
@@ -19,5 +20,10 @@ public class ArrowDirection : MonoBehaviour
     {
         if (Input.location.status == LocationServiceStatus.Running)
             gameObject.transform.rotation = Quaternion.Euler(0, player.GetComponent<GpsTracking>().GetDirection(), 0);
+    }
+
+    public void UpdateTarget(Vector3 newTarget)
+    {
+        target = newTarget;
     }
 }
