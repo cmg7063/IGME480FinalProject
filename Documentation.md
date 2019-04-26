@@ -1,4 +1,12 @@
 # IGME 480.01 Final Project Documentation 
+
+## Authors
+Matthew Castronova
+Corinne Green
+Rebecca Medina
+Alex Pasieka
+Thomas Ryszkiewicz
+
 ## Project Design
 The RIT AR Campus Tour is a Unity Android application that utilizes the GPS, compass, and Vuforia's augmented reality camera to provide enhanced views and information on the academic, dormitory, and dining services on RIT’s campus. Views of RIT’s campus are enhanced with blurbs of information that a visitor or prospective student on RIT’s campus might want to know. Our AR Campus Tour allows visitors to learn about buildings on RIT's campus easily and on their own, allowing the user to search for and navigate to campus buildings through the interface.
 
@@ -16,11 +24,12 @@ The RIT AR Campus Tour starts with a menu screen that allows the user to start t
 Because this is an RIT AR Campus Tour, we were mindful of the fact that RIT houses one of the largest technical colleges in the world for students who are deaf and hard of hearing and therefore did not want to heavily saturate the application with sound cues or elements that rely on sound.
 
 ## Interactions Developed
-(info)
+The RIT AR Campus Tour utilizes touch interactions that allow the user to toggle between seeing more or less information at a specific location. Using the Android GPS hardware and the hardcoded longitude and latitude values of RIT buildings and landmarks, the user is shown building and landmark information based on their current location.
 
 ## User-Interface Elements
-The RIT AR Campus Tour uses portrait mode therefore the UI is more minimalistic to avoid clutter while still providing the necessary, useful information to the user.
-(info)
+As stated, the RIT AR Campus Tour uses touch interactions which includes use of the Canvas’ button component. The Canvas resolution is set to scale with the device’s respective screen size and elements are anchored to specific positions to ensure a cohesive and responsive design. The application uses portrait mode, therefore, the UI is more minimalistic to avoid clutter while still providing the necessary, useful information to the user.
+
+The application implements non-diegetic and spatial UI. The non-diegetic UI can be seen in things like the menu, about, and credit screens. Furthermore, the non-diegetic UI can be seen in the "see more" and "see less" and “close” buttons seen in the location information blurbs. The spatial UI exists in the AR 3D tiger which appears on the ground plane for the user to follow.
 
 ## How We Approached Designing an AR Experience
 (info)
@@ -38,3 +47,6 @@ The RIT AR Campus Tour uses portrait mode therefore the UI is more minimalistic 
 ## Citations
 - Tiger Asset: https://assetstore.unity.com/packages/3d/characters/animals/golden-tiger-55797
 - RIT Images: https://commons.wikimedia.org/wiki/Category:Buildings_of_the_Rochester_Institute_of_Technology
+
+
+

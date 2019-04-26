@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16, y: 0.26}
   m_AnchorMax: {x: 0.16, y: 0.26}
-  m_AnchoredPosition: {x: 2, y: -7}
-  m_SizeDelta: {x: 270, y: 50}
+  m_AnchoredPosition: {x: 2, y: -10}
+  m_SizeDelta: {x: 270, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297775425
 MonoBehaviour:
@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "IMAGES COURTESY OF \nCOMMONS.WIKIMEDIA.ORG"
+  m_Text: "IMAGES COURTESY OF \nCOMMONS.\nWIKIMEDIA.ORG"
 --- !u!222 &297775426
 CanvasRenderer:
   m_ObjectHideFlags: 0
