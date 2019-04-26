@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DirectoryPositions : MonoBehaviour
 {
+    public GameObject menuButton;
 
     Dictionary<string, Vector3> buildingLocations;
 
@@ -40,6 +42,12 @@ public class DirectoryPositions : MonoBehaviour
         buildingLocations.Add("USC",  new Vector3(43.08318500164543f,  -77.6798027676416f));
         buildingLocations.Add("Ross",  new Vector3(43.0825141991628f,  -77.67786095898623f));
         buildingLocations.Add("Global Village",   new Vector3(43.08287269640527f,  -77.68020858264413f));
+
+        foreach (var building in buildingLocations) {
+            var button = Instantiate(menuButton, new Vector3(0, 0, 0), Quaternion.identity);
+            button.GetComponentInChildren<Text>().text = building.Key;
+            button.transform.SetParent(gameObject.transform, false);
+        }
 
     }
 
