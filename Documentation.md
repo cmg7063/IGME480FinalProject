@@ -1,11 +1,11 @@
 # IGME 480.01 Final Project Documentation 
 
 ## Authors
-Matthew Castronova
-Corinne Green
-Rebecca Medina
-Alex Pasieka
-Thomas Ryszkiewicz
+Matthew Castronova  
+Corinne Green  
+Rebecca Medina  
+Alex Pasieka  
+Thomas Ryszkiewicz  
 
 ## Project Design
 The RIT AR Campus Tour is a Unity Android application that utilizes the GPS, compass, and Vuforia's augmented reality camera to provide enhanced views and information on the academic, dormitory, and dining services on RIT’s campus. Views of RIT’s campus are enhanced with blurbs of information that a visitor or prospective student on RIT’s campus might want to know. Our AR Campus Tour allows visitors to learn about buildings on RIT's campus easily and on their own, allowing the user to search for and navigate to campus buildings through the interface.
@@ -32,13 +32,32 @@ As stated, the RIT AR Campus Tour uses touch interactions which includes use of 
 The application implements non-diegetic and spatial UI. The non-diegetic UI can be seen in things like the menu, about, and credit screens. Furthermore, the non-diegetic UI can be seen in the "see more" and "see less" and “close” buttons seen in the location information blurbs. The spatial UI exists in the AR 3D tiger which appears on the ground plane for the user to follow.
 
 ## How We Approached Designing an AR Experience
-(info)
+During our brainstorming session, we tried to think of applications which would be based in the real world and use AR to add more to the world, rather than override it. We also wanted to make an application that was independent of extra tactlie objects that would be required. For example, we did not want to create a card game which would recognize the card and add a model to it because then in addition to the phone with the AR experience, cards and the handling of these cards would be required.  
+
+We decided to create an app which would allow the user to go on a tour of the RIT campus. We felt that this application provided something useful to the user as well as had a solid base in the real world.  
+
+When thinking of how to use AR in a tour-like setting, we had several ideas. Our first was to use the ARCore cloud targets to place targets in specified locations. This would add more of an AR feel to the app, and allow us to place objects with significance to the area. For example, we might be able to place people of importance next to the buildings that are dedicated to them, or show major events which took place at the location. However, as this is a touring application, the objects would have to be placed so that the user would be sure to encounter them. 
+
+We instead decided to use a pop-up canvas to display information on buildings. This would ensure that the user would see the information and did not have to go hunting around to find objects they weren't certain existed. For the AR aspect, we added a "tour guide" or compass to guide the user to the next location in the tour. While this implementation decreases the AR interaction, it provides a better or more consistent user experience. If we were to be making this application for a building or museum, where the area covered by the user is less, it would be preferrable to use pre-placed AR objects or use image recognition. 
 
 ## Work Developed by Each Member
-(info)
+
+### Matthew Castronova 
+
+### Corinne Green  
+
+### Rebecca Medina  
+
+
+### Alex Pasieka  
+
+### Thomas Ryszkiewicz  
 
 ## Evaluation of Final Project
-(info)
+### Pros
+### Cons
+### Lessons Learned
+### What we would do differently
 
 ## Tech Stack
 - Unity 2018.3.7
