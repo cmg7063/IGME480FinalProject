@@ -28,24 +28,17 @@ public class ArrowDirection : MonoBehaviour
         }
         print("Current Target " + target.x + " " + target.z);
         playerLoc = player.GetComponent<GpsTracking>().GetPosition();
-        northVector = new Vector3(0, 0, 0);
-        // Get the location of the point to make up northVector
-        if (target.x > playerLoc.x)
-            northVector.x += 1;
-        else
-            northVector.x -= 1;
+        northVector = new Vector3(1.0f, 0, 0);
 
         Vector3 locationVector = target - playerLoc;
 
         // Get the angle between northVec and vector created by player location and target location
-        angleToTrack = Mathf.Acos(Vector3.Dot(northVector, locationVector) /
-            (Mathf.Sqrt((locationVector.x * locationVector.x) + (locationVector.z * locationVector.z))
-           * Mathf.Sqrt((northVector.x * northVector.x) + (northVector.z * northVector.z))));
+        angleToTrack = Mathf.Acos(Vector3.Dot(northVector, locationVector) /(northVector.magnitude * locationVector.magnitude));
 
         print("The angle currently is " + angleToTrack);
 
         if (Input.location.status == LocationServiceStatus.Running)
-            gameObject.transform.rotation = Quaternion.Euler(0, (angleToTrack + (-1)*player.GetComponent<GpsTracking>().GetDirection()), 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, (angleToTrack + player.GetComponent<GpsTracking>().GetDirection()), 0);
     }
 
     public void UpdateTarget(Vector3 newTarget)
