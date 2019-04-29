@@ -22,6 +22,11 @@ public class ArrowDirection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(target == null)
+        {
+            return;
+        }
+        print("Current Target " + target.x + " " + target.z);
         playerLoc = player.GetComponent<GpsTracking>().GetPosition();
         northVector = new Vector3(0, 0, 0);
         // Get the location of the point to make up northVector
@@ -40,7 +45,7 @@ public class ArrowDirection : MonoBehaviour
         print("The angle currently is " + angleToTrack);
 
         if (Input.location.status == LocationServiceStatus.Running)
-            gameObject.transform.rotation = Quaternion.Euler(0, player.GetComponent<GpsTracking>().GetDirection(), 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, (angleToTrack + (-1)*player.GetComponent<GpsTracking>().GetDirection()), 0);
     }
 
     public void UpdateTarget(Vector3 newTarget)

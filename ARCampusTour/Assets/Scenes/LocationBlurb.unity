@@ -685,6 +685,16 @@ PrefabInstance:
       propertyPath: updateLocation
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7054639871369701315, guid: e0a94af14355f7a4fa36b0d05929ff7e,
+        type: 3}
+      propertyPath: latitude
+      value: 43.0855
+      objectReference: {fileID: 0}
+    - target: {fileID: 7054639871369701315, guid: e0a94af14355f7a4fa36b0d05929ff7e,
+        type: 3}
+      propertyPath: longitude
+      value: -77.67652
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0a94af14355f7a4fa36b0d05929ff7e, type: 3}
 --- !u!1 &130714932
@@ -732,6 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c28ebf546af254f82cd9b3f2347210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angleToTrack: 0
 --- !u!1001 &143401889
 PrefabInstance:
   m_ObjectHideFlags: 0
