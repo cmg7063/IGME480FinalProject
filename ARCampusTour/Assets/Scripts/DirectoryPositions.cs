@@ -43,11 +43,17 @@ public class DirectoryPositions : MonoBehaviour
         buildingLocations.Add("Ross",  new Vector3(43.0825141991628f,  -77.67786095898623f));
         buildingLocations.Add("Global Village",   new Vector3(43.08287269640527f,  -77.68020858264413f));
 
+        int yPos = buildingLocations.Count * 100 / 2 - 50;
         foreach (var building in buildingLocations) {
-            var button = Instantiate(menuButton, new Vector3(0, 0, 0), Quaternion.identity);
+            var button = Instantiate(menuButton, new Vector3(0, yPos, 0), Quaternion.identity);
             button.GetComponentInChildren<Text>().text = building.Key;
             button.transform.SetParent(gameObject.transform, false);
+            yPos -= 100;
         }
+
+        RectTransform rt = gameObject.GetComponent(typeof(RectTransform)) as RectTransform;
+        rt.sizeDelta = new Vector2(600, buildingLocations.Count * 100);
+        rt.localPosition = new Vector3(0, -(buildingLocations.Count * 100 / 2), 0);
 
     }
 
