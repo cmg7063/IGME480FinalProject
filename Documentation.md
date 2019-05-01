@@ -43,15 +43,31 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 ## Work Developed by Each Member
 
 ### Matthew Castronova 
+- Created the path
+- Created material for image recognition objects
 
 ### Corinne Green  
+- Designed and created all scenes
+- Did all work on canvases
+- Worked to get the tiger to follow the player and animate
 
 ### Rebecca Medina  
-Rebecca worked on setting up prefabs in the Unity Scene. She also worked on getting images and blurbs for the treasure hunt. She wrote the questions to be used for the treasure hunt as well. She wrote the collision detection script and started the path finding script. 
+- Setting up prefabs in the Unity Scene
+- Getting images and blurbs for the treasure hunt
+- Wrote the questions to be used for the treasure hunt 
+- Wrote the collision detection script and started the path finding script
+- Got most GPS locations to be used by building boundary and building selection
 
 ### Alex Pasieka  
+- Wrote the Directory Scene for selecting specific buildings
+- Created image recognition targets
+- Put image recognition targets and objects in Unity
 
 ### Thomas Ryszkiewicz  
+- Added sound
+- Worked on compass and GPS
+- Worked on getting the compass to point in the correct direction
+- Testing/Debugging
 
 ## Evaluation of Final Project
 ### Pros
@@ -61,7 +77,7 @@ Rebecca worked on setting up prefabs in the Unity Scene. She also worked on gett
 
 ### Cons
 - Sound is more of an add-on than an enhancment to the experience. 
-- We frequently changed our goal and the technologies we were using as problems came up. This made it difficult to develop for. 
+- We frequently changed our goal and the technologies we were using as problems came up. This made it difficult to develop for. It also made it hard to keep track of the actual work people did as a lot of features had to get cut due to other aspects not working.
 
 ### Lessons Learned
  - Even if something seems like it might work, unless you have it completely working, it might fail
