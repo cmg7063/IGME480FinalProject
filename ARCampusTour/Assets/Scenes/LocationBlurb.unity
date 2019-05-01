@@ -6171,7 +6171,7 @@ GameObject:
   - component: {fileID: 1270859367}
   - component: {fileID: 1270859366}
   m_Layer: 5
-  m_Name: RITchie
+  m_Name: Ritchie Balloon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6193,8 +6193,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.86, y: 0.72}
   m_AnchorMax: {x: 0.86, y: 0.72}
-  m_AnchoredPosition: {x: -4, y: -4}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 29, y: 19}
+  m_SizeDelta: {x: 336, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1270859366
 MonoBehaviour:
@@ -6216,7 +6216,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8838e457425d1e14b820ec4842eb705e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd46bc64165d5134eb91f63f2eb1b4e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
