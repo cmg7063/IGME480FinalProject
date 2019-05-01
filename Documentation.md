@@ -26,6 +26,8 @@ Because this is an RIT AR Campus Tour, we were mindful of the fact that RIT hous
 ## Interactions Developed
 The RIT AR Campus Tour utilizes touch interactions that allow the user to toggle between seeing more or less information at a specific location. Using the Android GPS hardware and the hardcoded longitude and latitude values of RIT buildings and landmarks, the user is shown building and landmark information based on their current location.
 
+The user can also scan images placed on the buildings to reveal more information about that building. Compared to the practical information provided by GPS collisions, this information is more about fun facts and is to be used with a paper treasure hunt add-on.
+
 ## User-Interface Elements
 As stated, the RIT AR Campus Tour uses touch interactions which includes use of the Canvas’ button component. The Canvas resolution is set to scale with the device’s respective screen size and elements are anchored to specific positions to ensure a cohesive and responsive design. The application uses portrait mode, therefore, the UI is more minimalistic to avoid clutter while still providing the necessary, useful information to the user.
 
@@ -44,6 +46,7 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 
 ### Matthew Castronova 
 - Created the path
+- Gost some GPS locations to be used by building boundary
 - Created material for image recognition objects
 
 ### Corinne Green  
@@ -78,15 +81,19 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 ### Cons
 - Sound is more of an add-on than an enhancment to the experience. 
 - We frequently changed our goal and the technologies we were using as problems came up. This made it difficult to develop for. It also made it hard to keep track of the actual work people did as a lot of features had to get cut due to other aspects not working.
+- The GPS is only accurate within roughly 15 feet, which makes it difficult to get each building individually. Depending on the age of the phone, quality can decrease rapidly.
 
 ### Lessons Learned
- - Even if something seems like it might work, unless you have it completely working, it might fail
- - Having backups is important
+ - Even if something seems like it might work, unless you have it completely working, it might fail.
+ - Having backups is important.
+ - We learned a lot about the RIT campus.
+ - When using both GitHub and Google Drive, things can get a bit confusing. However, GitHub is good for code and Drive is good for larger or more collaborative files like images.
+ - It is hard to design AR for inclusivity .
 
 ### What we would do differently
-- Research more thoroughly all of the technologies and uses of technologies we will be using
-- When researching, make quick small prototypes testing the technology to be used for each feature
-
+- Research more thoroughly all of the technologies and uses of technologies we will be using.
+- When researching, make quick small prototypes testing the technology to be used for each feature.
+- At the start of the project we were very good about keeping track of issues and milestones in GitHub, but at the end of the project we weren't as meticulous. If continuing, we would do a better job of this and have more descriptive issues so we wouldn't have two people working on the same problem. 
 
 ## Tech Stack
 - Unity 2018.3.7
@@ -95,6 +102,7 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 ## Citations
 - Tiger Asset: https://assetstore.unity.com/packages/3d/characters/animals/golden-tiger-55797
 - RIT Images: https://commons.wikimedia.org/wiki/Category:Buildings_of_the_Rochester_Institute_of_Technology
+- Further Citations for image recognition images and blurbs can be found: https://docs.google.com/document/d/1jxc75W4KXc6Rf_qhVPHhVYWYkNmPgtS9bVP4mu6e26A/edit?usp=sharing
 
 
 
