@@ -435,7 +435,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 80}
-  m_SizeDelta: {x: 800, y: 1100}
+  m_SizeDelta: {x: 800, y: 1050}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425946223
 MonoBehaviour:
@@ -716,8 +716,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -3}
-  m_SizeDelta: {x: 750, y: 1050}
+  m_AnchoredPosition: {x: 0, y: 2}
+  m_SizeDelta: {x: 750, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799357709
 MonoBehaviour:
@@ -741,7 +741,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -752,19 +752,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lyndon Baines Johnson Hall\r\nMark Ellingson Hall\r\nCSD Student Development
-    Center\r\nSol Heumann Hall\r\nNathaniel Rochester Hall\r\nKate Gleason Hall\r\nGrace
-    Watson\r\nGordon Field House and Activities Center\r\nGeorge H. Clark Gymnasium\r\nStudent
-    Alumni Union\r\nThe Bronzed Bengal Tiger Statue\r\nThe Wallace Center and Java
-    Wally's\r\nGene Polliseni Center\r\nGleason Circle\r\nMax Lowenthal Hall\r\nThomas
-    Gosnell Hall\r\nInfinity Quad\r\nJames E. Booth Hall and the Vignelli Center for
-    Design Studies\nJames E. Gleason Hall\r\nLousie Slaughter Hall\r\nSustainability
-    Institute Hall\r\nInstitute Hall\r\nCenter for Bioscience Education & Technology\r\nChester
-    F. Carlson Center for Imaging Science\r\nMAGIC Spell Studios\r\nBausch & Lomb
-    Center\r\nFrank Ritter Ice Arena\r\nGeorge Eastman Hall\r\nFrank E. Gannett\r\nLiberal
-    Arts Hall\r\nOrange Hall\r\nGolisano Hall\r\nSimone Center for Innovation and
-    Entrepreneurship\r\nLewis P. Ross Hall\r\nHugh L. Carey\r\nCrossroads and Midnight
-    Oil\r\nGlobal Village"
+  m_Text: "Lyndon Baines Johnson Hall\r\nCenter for Student Development Center\r\nMark
+    Ellingson Hall\r\nSol Heumann Hall\r\nNathaniel Rochester Hall\r\nKate Gleason
+    Hall\r\nGrace Watson Hall\nGordon Field House and Activities Center\r\nCampus
+    Center/Clark Gym/Frank Ritter Ice Arena\nStudent Alumni Union\r/Monroe Hall\nGeorge
+    Eastman Hall\nThe Bronzed Bengal Tiger Statue\r\nFrank E. Gannett\r\nBooth Hall\nThe
+    Wallace Library\nLiberal Arts Hall\r\nGene Polliseni Center\r\nGleason Circle\r\nMax
+    Lowenthal Hall\r\nThomas Gosnell Hall\r\nInfinity Quad\r\nJames E. Gleason Hall\r/Engineering
+    Hall\nThomas E. Golisano Hall\nOrange Hall\r\nUniversity Services Center\nLewis
+    P. Ross Hall\r\nHugh L. Carey\r\nBrown Hall\nGlobal Village Plaza"
 --- !u!222 &799357710
 CanvasRenderer:
   m_ObjectHideFlags: 0
