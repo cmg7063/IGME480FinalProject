@@ -3,7 +3,14 @@ guid: 7b0d42d7642b274489ed57a30d03bdeb
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - startTour: {instanceID: 0}
+  - directory: {instanceID: 0}
+  - about: {instanceID: 0}
+  - credits: {instanceID: 0}
+  - quit: {instanceID: 0}
+  - menu: {instanceID: 0}
+  - clickSound: {fileID: 8300000, guid: 8e8be60a264fee14288fa7ad5c9e94cd, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

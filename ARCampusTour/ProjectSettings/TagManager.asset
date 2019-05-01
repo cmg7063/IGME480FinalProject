@@ -12,6 +12,7 @@ TagManager:
   - blurbBlock
   - closeBlock
   - websiteBlock
+  - eventSystem
   layers:
   - Default
   - TransparentFX

@@ -40,7 +40,7 @@ public class BlurbController : MonoBehaviour
         websiteBlock.GetComponentInChildren<Text>().text = "";
 
         // Get the audio source
-        source = GetComponent<AudioSource>();
+        source = GameObject.FindGameObjectWithTag("eventSystem").GetComponent<AudioSource>();
 
         // If the link variable in the LandmarkBlerb script is empty, this location does not have a website therefore do not show text for website
         if (string.IsNullOrEmpty(link))
@@ -57,11 +57,13 @@ public class BlurbController : MonoBehaviour
             //websiteBlock.SetActive(true);
             websiteBlock.GetComponentInChildren<Text>().text = "Website";
             Application.OpenURL(link);
+            source.PlayOneShot(closeSound, 0.0f);
         }
     }
 
     public void ShowMore()
     {
+        source.PlayOneShot(closeSound, 0.0f);
         if (x == 0)
         {
             //longBlurbDesc.SetActive(true);
@@ -84,7 +86,7 @@ public class BlurbController : MonoBehaviour
 
     public void CloseBlock()
     {
-        source.PlayOneShot(closeSound, 0.5f);
+        source.PlayOneShot(closeSound, 0.0f);
         blurbBlock.SetActive(false);
     }
 
