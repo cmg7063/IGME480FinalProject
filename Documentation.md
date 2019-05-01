@@ -46,6 +46,7 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 
 ### Matthew Castronova 
 - Created the path
+- Gost some GPS locations to be used by building boundary
 - Created material for image recognition objects
 
 ### Corinne Green  
