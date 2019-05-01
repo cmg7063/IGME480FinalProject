@@ -82,11 +82,13 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 ### Lessons Learned
  - Even if something seems like it might work, unless you have it completely working, it might fail
  - Having backups is important
+ - We learned a lot about the RIT campus
+ - When using both GitHub and Google Drive, things can get a bit confusing. However, GitHub is good for code and Drive is good for larger or more collaborative files like images.
 
 ### What we would do differently
 - Research more thoroughly all of the technologies and uses of technologies we will be using
 - When researching, make quick small prototypes testing the technology to be used for each feature
-
+- At the start of the project we were very good about keeping track of issues and milestones in GitHub, but at the end of the project we weren't as meticulous. If continuing, we would do a better job of this and have more descriptive issues so we wouldn't have two people working on the same problem. 
 
 ## Tech Stack
 - Unity 2018.3.7
