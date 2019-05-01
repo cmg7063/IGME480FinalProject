@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Global_Village_Plaza" size="1.000000 0.800000" />
+    <ImageTarget name="Brown_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Hugh_L_Carey_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Lewis_P_Ross_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="University_Services_Center" size="1.000000 0.800000" />
+    <ImageTarget name="Orange_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Thomas_E_Golisano_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="James_E_Gleason_Hall_Engineering_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Thomas_Gosnell_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Max_Lowenthal_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Gleason_Circle" size="1.000000 0.800000" />
+    <ImageTarget name="Gene_Polisseni_Center" size="1.000000 0.800000" />
+    <ImageTarget name="Liberal_Arts_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Wallace_Library" size="1.000000 0.800000" />
+    <ImageTarget name="Booth_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Frank_E_Gannett_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Tiger_Statue" size="1.000000 0.800000" />
+    <ImageTarget name="Student_Alumni_Union_Monroe_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Campus_Center_Clark_Gym_Frank_Ritter_Ice_Arena" size="1.000000 0.800000" />
+    <ImageTarget name="Gordon_Fieldhouse_August_Health_Center" size="1.000000 0.800000" />
+    <ImageTarget name="Grace_Watson_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Kate_Gleason_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Nathaniel_Rochester_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Sol_Heumann_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Mark_Ellingson_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="Center_for_Student_Development" size="1.000000 0.800000" />
+    <ImageTarget name="Lyndon_B_Johnson_Hall" size="1.000000 0.800000" />
+    <ImageTarget name="George_Eastman_Hall" size="1.000000 0.800000" />
+  </Tracking>
+</QCARConfig>
