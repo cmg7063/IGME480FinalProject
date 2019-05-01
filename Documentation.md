@@ -43,21 +43,50 @@ We instead decided to use a pop-up canvas to display information on buildings. T
 ## Work Developed by Each Member
 
 ### Matthew Castronova 
+- Created the path
+- Created material for image recognition objects
 
 ### Corinne Green  
+- Designed and created all scenes
+- Did all work on canvases
+- Worked to get the tiger to follow the player and animate
 
 ### Rebecca Medina  
-
+- Setting up prefabs in the Unity Scene
+- Getting images and blurbs for the treasure hunt
+- Wrote the questions to be used for the treasure hunt 
+- Wrote the collision detection script and started the path finding script
+- Got most GPS locations to be used by building boundary and building selection
 
 ### Alex Pasieka  
+- Wrote the Directory Scene for selecting specific buildings
+- Created image recognition targets
+- Put image recognition targets and objects in Unity
 
 ### Thomas Ryszkiewicz  
+- Added sound
+- Worked on compass and GPS
+- Worked on getting the compass to point in the correct direction
+- Testing/Debugging
 
 ## Evaluation of Final Project
 ### Pros
+- A pro of our team is that we were very adaptive to challenges. We did not dwell on failures or setbacks, but thought of new solutions and different features we would be able to implement.
+- Our app is aimed for both kids and adults. The information we present might be more interesting to older audiences, but with the treasure hunt we appeal to kids as well. For different events, the treasure hunt can be used with prizes aimed toward the specific audience. 
+- While one might say a drawback of our project is that the QR images need to be posted for people to find, even if the images are not up, the user can walk through campus and learn information about buildings through the GPS implementation. This allows for some customization of the experience. If a user does not want to search for the QR images, they do not need to in order to benifit from our application.
+
 ### Cons
+- Sound is more of an add-on than an enhancment to the experience. 
+- We frequently changed our goal and the technologies we were using as problems came up. This made it difficult to develop for. It also made it hard to keep track of the actual work people did as a lot of features had to get cut due to other aspects not working.
+
 ### Lessons Learned
+ - Even if something seems like it might work, unless you have it completely working, it might fail
+ - Having backups is important
+
 ### What we would do differently
+- Research more thoroughly all of the technologies and uses of technologies we will be using
+- When researching, make quick small prototypes testing the technology to be used for each feature
+
 
 ## Tech Stack
 - Unity 2018.3.7
